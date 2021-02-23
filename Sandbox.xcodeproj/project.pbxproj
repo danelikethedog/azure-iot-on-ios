@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D440502E0F5665A85FE03E1 /* Pods_Sandbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C724311C08DD93BBB1C928 /* Pods_Sandbox.framework */; };
+		A198DC1925E576FC00CEDC94 /* iotClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A198DC1825E576FC00CEDC94 /* iotClientViewController.swift */; };
 		A1AFDDD725E45DF4000375E6 /* SandboxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AFDDD625E45DF4000375E6 /* SandboxApp.swift */; };
 		A1AFDDD925E45DF4000375E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AFDDD825E45DF4000375E6 /* ContentView.swift */; };
 		A1AFDDDB25E45DF5000375E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1AFDDDA25E45DF5000375E6 /* Assets.xcassets */; };
@@ -14,6 +16,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B09A2B9E5E1A8CDA37D60C5 /* Pods-Sandbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sandbox.debug.xcconfig"; path = "Target Support Files/Pods-Sandbox/Pods-Sandbox.debug.xcconfig"; sourceTree = "<group>"; };
+		4F446FB609804D4D26052447 /* Pods-Sandbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sandbox.release.xcconfig"; path = "Target Support Files/Pods-Sandbox/Pods-Sandbox.release.xcconfig"; sourceTree = "<group>"; };
+		88C724311C08DD93BBB1C928 /* Pods_Sandbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sandbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A198DC1825E576FC00CEDC94 /* iotClientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iotClientViewController.swift; sourceTree = "<group>"; };
 		A1AFDDD325E45DF4000375E6 /* Sandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1AFDDD625E45DF4000375E6 /* SandboxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandboxApp.swift; sourceTree = "<group>"; };
 		A1AFDDD825E45DF4000375E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -27,17 +33,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D440502E0F5665A85FE03E1 /* Pods_Sandbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		462108439974E703D4AF5EF4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B09A2B9E5E1A8CDA37D60C5 /* Pods-Sandbox.debug.xcconfig */,
+				4F446FB609804D4D26052447 /* Pods-Sandbox.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A1AFDDCA25E45DF4000375E6 = {
 			isa = PBXGroup;
 			children = (
 				A1AFDDD525E45DF4000375E6 /* Sandbox */,
 				A1AFDDD425E45DF4000375E6 /* Products */,
+				462108439974E703D4AF5EF4 /* Pods */,
+				E4C8AFBB7CD020CD005AE7C8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +73,7 @@
 			children = (
 				A1AFDDD625E45DF4000375E6 /* SandboxApp.swift */,
 				A1AFDDD825E45DF4000375E6 /* ContentView.swift */,
+				A198DC1825E576FC00CEDC94 /* iotClientViewController.swift */,
 				A1AFDDDA25E45DF5000375E6 /* Assets.xcassets */,
 				A1AFDDDF25E45DF5000375E6 /* Info.plist */,
 				A1AFDDDC25E45DF5000375E6 /* Preview Content */,
@@ -69,6 +89,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		E4C8AFBB7CD020CD005AE7C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88C724311C08DD93BBB1C928 /* Pods_Sandbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1AFDDE225E45DF5000375E6 /* Build configuration list for PBXNativeTarget "Sandbox" */;
 			buildPhases = (
+				2A6280B5C80294B98347B3ED /* [CP] Check Pods Manifest.lock */,
 				A1AFDDCF25E45DF4000375E6 /* Sources */,
 				A1AFDDD025E45DF4000375E6 /* Frameworks */,
 				A1AFDDD125E45DF4000375E6 /* Resources */,
+				E30020B29D11B4838687B3C3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,11 +163,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A6280B5C80294B98347B3ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sandbox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E30020B29D11B4838687B3C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sandbox/Pods-Sandbox-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sandbox/Pods-Sandbox-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sandbox/Pods-Sandbox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A1AFDDCF25E45DF4000375E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A198DC1925E576FC00CEDC94 /* iotClientViewController.swift in Sources */,
 				A1AFDDD925E45DF4000375E6 /* ContentView.swift in Sources */,
 				A1AFDDD725E45DF4000375E6 /* SandboxApp.swift in Sources */,
 			);
@@ -264,6 +337,7 @@
 		};
 		A1AFDDE325E45DF5000375E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B09A2B9E5E1A8CDA37D60C5 /* Pods-Sandbox.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -286,6 +360,7 @@
 		};
 		A1AFDDE425E45DF5000375E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F446FB609804D4D26052447 /* Pods-Sandbox.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

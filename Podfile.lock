@@ -1,0 +1,52 @@
+PODS:
+  - AzureIoTHubClient (1.5.0):
+    - AzureIoTuAmqp (= 1.5.0)
+    - AzureIoTuMqtt (= 1.5.0)
+    - AzureIoTUtility (= 1.5.0)
+    - AzureMacroUtils (= 1.3.9-patch-1)
+    - AzureuMockC (= 1.3.9-patch-2)
+  - AzureIoTuAmqp (1.5.0):
+    - AzureIoTUtility (= 1.5.0)
+    - AzureMacroUtils (= 1.3.9-patch-1)
+    - AzureuMockC (= 1.3.9-patch-2)
+  - AzureIoTuMqtt (1.5.0):
+    - AzureIoTUtility (= 1.5.0)
+    - AzureMacroUtils (= 1.3.9-patch-1)
+    - AzureuMockC (= 1.3.9-patch-2)
+  - AzureIoTUtility (1.5.0):
+    - AzureMacroUtils (= 1.3.9-patch-1)
+    - AzureuMockC (= 1.3.9-patch-2)
+  - AzureMacroUtils (1.3.9-patch-1)
+  - AzureuMockC (1.3.9-patch-2):
+    - AzureMacroUtils (= 1.3.9-patch-1)
+  - OpenSSL-Universal (1.1.180)
+
+DEPENDENCIES:
+  - AzureIoTHubClient (= 1.5.0)
+  - AzureIoTuAmqp (= 1.5.0)
+  - AzureIoTuMqtt (= 1.5.0)
+  - AzureIoTUtility (= 1.5.0)
+  - OpenSSL-Universal
+
+SPEC REPOS:
+  trunk:
+    - AzureIoTHubClient
+    - AzureIoTuAmqp
+    - AzureIoTuMqtt
+    - AzureIoTUtility
+    - AzureMacroUtils
+    - AzureuMockC
+    - OpenSSL-Universal
+
+SPEC CHECKSUMS:
+  AzureIoTHubClient: f6e2ed950db573a24a76796f274f85fb56f51125
+  AzureIoTuAmqp: 51dda1512d7d8b9ab7d14261f57215addfc2e10f
+  AzureIoTuMqtt: 0592b2865ce45e2927d2862d9f4f49f8d66859ef
+  AzureIoTUtility: c92ab0db2b5349c021c1c53e1ba09e4b0ea2b773
+  AzureMacroUtils: dabfbc67c5f1aca5748036db9ebba242a9a408c6
+  AzureuMockC: ebe39c9e701fc961b212854d0572bb0f51534b64
+  OpenSSL-Universal: 1aa4f6a6ee7256b83db99ec1ccdaa80d10f9af9b
+
+PODFILE CHECKSUM: 65d0bfa5fc7530d017e9a66ce36f151396df724d
+
+COCOAPODS: 1.10.1
