@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1240"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9EC123FAD2E600BD3A258D26D6BCA5D1"
-               BuildableName = "Pods_Sandbox.framework"
-               BlueprintName = "Pods-Sandbox"
+               BlueprintIdentifier = "91D71F49E14C3A6245CC6F4E3AA98AB4"
+               BuildableName = "Pods_cSDKonIOS.framework"
+               BlueprintName = "Pods-cSDKonIOS"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

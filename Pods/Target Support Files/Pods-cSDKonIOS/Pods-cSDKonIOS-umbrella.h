@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_SandboxVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_SandboxVersionString[];
+FOUNDATION_EXPORT double Pods_cSDKonIOSVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_cSDKonIOSVersionString[];
 

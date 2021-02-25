@@ -2,13 +2,13 @@
 
 platform :ios, '12.0'
 
-workspace 'Sandbox'
+workspace 'cSDKonIOS'
 
-target 'Sandbox' do
+target 'cSDKonIOS' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for Sandbox
+  # Pods for cSDKonIOS
   pod 'AzureIoTUtility', '=1.5.0'
   pod 'AzureIoTuMqtt', '=1.5.0'
   pod 'AzureIoTuAmqp', '=1.5.0'

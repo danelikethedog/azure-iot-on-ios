@@ -16,7 +16,6 @@
 				FB3013B3CB28DE22F03D5BDDD4616EE0 /* PBXTargetDependency */,
 			);
 			name = AzureuMockC;
-			productName = AzureuMockC;
 		};
 		B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */ = {
 			isa = PBXAggregateTarget;
@@ -27,7 +26,6 @@
 			dependencies = (
 			);
 			name = "OpenSSL-Universal";
-			productName = "OpenSSL-Universal";
 		};
 		D1622A3A18403322156C6932098E1E28 /* AzureMacroUtils */ = {
 			isa = PBXAggregateTarget;
@@ -37,7 +35,6 @@
 			dependencies = (
 			);
 			name = AzureMacroUtils;
-			productName = AzureMacroUtils;
 		};
 /* End PBXAggregateTarget section */
 
@@ -164,6 +161,7 @@
 		35FDF800BC9B597E6405B0FBA4FD0C4F /* amqp_definitions_transfer.h in Copy azure_uamqp_c Public Headers */ = {isa = PBXBuildFile; fileRef = BD180E19422A4D78D3B2B0BC0B0076CE /* amqp_definitions_transfer.h */; };
 		365EAA698DADEBB60D5EA62D0EBC70C8 /* amqp_definitions_released.h in Headers */ = {isa = PBXBuildFile; fileRef = 6716635E89C10323F37CB924B62E70A1 /* amqp_definitions_released.h */; };
 		366B98739108334A61AD3F5FB5716C63 /* iothub_internal_consts.h in Headers */ = {isa = PBXBuildFile; fileRef = 835CA0199FCCE5B0C008B9A585924059 /* iothub_internal_consts.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		36A397B956B15A8A92187E022C0B10A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4390E8319B58A7F96E11DCDCF70A8A /* Foundation.framework */; };
 		372347F6C5D92DD0AB33F664D8412303 /* constbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 428610C3DD56601D78D45F7B763BC020 /* constbuffer.h */; };
 		385B2F912E755F33DE98EF4DF37D48F6 /* iothubtransport_mqtt_common.h in Headers */ = {isa = PBXBuildFile; fileRef = A753A52BBEA7B02CE0C5C973CDF87DC4 /* iothubtransport_mqtt_common.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3880FFAE86DD2BBE157B9EC18E08AF11 /* string_tokenizer.c in Sources */ = {isa = PBXBuildFile; fileRef = 383CC3E8E69A28DAB5A915A140C2048E /* string_tokenizer.c */; };
@@ -174,6 +172,7 @@
 		3993DDC01AAC905F8D11D60107DF10A9 /* amqp_definitions_sasl_response.h in Copy azure_uamqp_c Public Headers */ = {isa = PBXBuildFile; fileRef = 3778E45DE560055D8F2EA9C560854FCF /* amqp_definitions_sasl_response.h */; };
 		3A2D5AF1A3C37F4F89CC88CA13BD6E69 /* saslclientio.h in Copy azure_uamqp_c Public Headers */ = {isa = PBXBuildFile; fileRef = CB323944732A6A25B87FB888D3B06205 /* saslclientio.h */; };
 		3A3FF54233848EEA62D4DF3D6037A85F /* condition.h in Copy azure_c_shared_utility Public Headers */ = {isa = PBXBuildFile; fileRef = E536D2C7676E04D12E15DA4239048800 /* condition.h */; };
+		3A8D4AFE83538F32F68602AA03530D03 /* Pods-cSDKonIOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C19141EB92FD50E14C9EAE0E3D387D94 /* Pods-cSDKonIOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3AA0635CE435D4F8F985DF715110C617 /* iothub_device_client_ll.c in Sources */ = {isa = PBXBuildFile; fileRef = 434CF2D73308A45EFB982B9D814D52FB /* iothub_device_client_ll.c */; };
 		3ABCECAE749033826844A9A37A03B1F9 /* sastoken.h in Headers */ = {isa = PBXBuildFile; fileRef = CF33D5454D271C6C38B887046DE6C400 /* sastoken.h */; };
 		3B41777C43AD7CFA6A5346E56C25A7BC /* amqp_definitions_end.h in Headers */ = {isa = PBXBuildFile; fileRef = E5D5536D2D6B8161451D13555394F50F /* amqp_definitions_end.h */; };
@@ -309,7 +308,6 @@
 		76FC6853DC3C9EE539DA88B3E211FA73 /* iothub_module_client.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 78EB21A483044C7CD5E3AF17333C7CDD /* iothub_module_client.h */; };
 		775A88D938C01595E16AB24C3872C558 /* session.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CAACCBA5ED88B51DF90484147E4CA42 /* session.c */; };
 		77901F9C40DC751332685D96CAB23986 /* amqp_definitions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E5363AA4202B75080021ED8A2607687 /* amqp_definitions.h */; };
-		77917AE53B82C8A773EE9C334BA952BF /* Pods-Sandbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B13D1399406309C42D6C95862708833B /* Pods-Sandbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		77D06A3BD67FF33F224295CCA180D752 /* amqp_definitions_disposition.h in Copy azure_uamqp_c Public Headers */ = {isa = PBXBuildFile; fileRef = A0D83A2C086CA948966F99F79A22D848 /* amqp_definitions_disposition.h */; };
 		77E1E50870BB44BF822BC3E580C82D30 /* amqp_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 5554010149D532ED6598E0614685AC20 /* amqp_types.h */; };
 		78305F7793D2240084DCA2CCA9458C81 /* iothub_transport_ll.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CA4A2E94ABB95C465D48006A409C1D /* iothub_transport_ll.h */; };
@@ -350,7 +348,6 @@
 		89726B17578A7B31C00607E388CA85DE /* strings.c in Sources */ = {isa = PBXBuildFile; fileRef = 6B25FD682E38EB005722D36C38455EA0 /* strings.c */; };
 		89904F41069935C7B8AA92DAE6025846 /* codefirst.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = F71B1E23C4729CBA9D4B0D68A8DAEDCC /* codefirst.h */; };
 		89CF7674BD228285FF677EA2701E5878 /* singlylinkedlist.h in Headers */ = {isa = PBXBuildFile; fileRef = 28A5BAB40C99651D9212665DA9E968E8 /* singlylinkedlist.h */; };
-		8A5989DEE7A4D6BD99B911D2C57819C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4390E8319B58A7F96E11DCDCF70A8A /* Foundation.framework */; };
 		8AEB64A4FDCAF3B19BF686642504C9F1 /* AzureIoTuMqtt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1036D6B1F0C9E0DB2A459449F8E7E /* AzureIoTuMqtt-dummy.m */; };
 		8AF0CA5F62762FE5B0851A9CE84004B3 /* iothub_device_client.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A37BD9AD2946F74C6DA8DFAE20F1091 /* iothub_device_client.h */; };
 		8B9AEE6EF20392B7578368A68982FAD5 /* commanddecoder.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = ED3CF29008BFE519D7FF9ABE36CBDF5F /* commanddecoder.h */; };
@@ -405,12 +402,12 @@
 		9F264D18870CBFE05243EECCFA9F3350 /* hmac.h in Copy azure_c_shared_utility Public Headers */ = {isa = PBXBuildFile; fileRef = 97CC5F92BFCB9DEF5A2E90DB9CDEDF3E /* hmac.h */; };
 		9F4A9FC9FD9993B27E5FEFF0ACB0A40C /* amqp_definitions_detach.h in Copy azure_uamqp_c Public Headers */ = {isa = PBXBuildFile; fileRef = 21F98EC85B819E9A56DF2BC891E65804 /* amqp_definitions_detach.h */; };
 		9F92FED6A2F002FE5027B7A3C352A5F7 /* string_token.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E551B25235D48A84DD6F5C3C6F2C6 /* string_token.c */; };
+		9FC41FE2FFB05627CEC62222E52B7CE9 /* Pods-cSDKonIOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA5470C967059E036D6BE22866E34C1 /* Pods-cSDKonIOS-dummy.m */; };
 		A06945F1626E8C5CEB48D7272A5A25DA /* amqp_definitions_milliseconds.h in Headers */ = {isa = PBXBuildFile; fileRef = 13B9ABA68C00C95022B22DD82381B66F /* amqp_definitions_milliseconds.h */; };
 		A07FFBF0C77CD84EA22AE2E0D89D4113 /* sasl_mssbcbs.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D60CAB705A561BA89EC95836D381727 /* sasl_mssbcbs.h */; };
 		A0A75D2CC12BD857861E1EB9DC83899D /* singlylinkedlist.c in Sources */ = {isa = PBXBuildFile; fileRef = 77BEC4CBB5B943E177B10F22B44EB535 /* singlylinkedlist.c */; };
 		A18A439A23843E5A3C27F3239901A69A /* iothub_module_client_ll.c in Sources */ = {isa = PBXBuildFile; fileRef = A20EFD359920E424666A9BE7BFAAB621 /* iothub_module_client_ll.c */; };
 		A233DDE4090846130BA30DE6FBB2297F /* jsondecoder.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 624F8EF3E2AE28ECBAB65E7ADB6B5A4E /* jsondecoder.h */; };
-		A28A665999E5D3338CE55701A0E347DA /* Pods-Sandbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C133CCC545B0372C5461CEAFC077DAE /* Pods-Sandbox-dummy.m */; };
 		A2BD54F3EAF6A2A4A2EDC45803A02A9B /* constbuffer_array_batcher.h in Copy azure_c_shared_utility Public Headers */ = {isa = PBXBuildFile; fileRef = 6C57BC303EC9F9A0EEF3C3E1D0F043BD /* constbuffer_array_batcher.h */; };
 		A3A349EAB3832F0FB17325F445E3DEC2 /* sasl_mechanism.h in Headers */ = {isa = PBXBuildFile; fileRef = 352AB080980D02D1AF72D605C5F0E5AA /* sasl_mechanism.h */; };
 		A3BBE99EB3F01578A009D006CD1CBA33 /* amqp_definitions_error.h in Headers */ = {isa = PBXBuildFile; fileRef = 88D2E64065321DFC72FB7DD8AC50E956 /* amqp_definitions_error.h */; };
@@ -607,19 +604,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		032E37A0D7EE29018F7E24E175AC0088 /* PBXContainerItemProxy */ = {
+		01F01FE131DAEAC5E2C4E1925C5122F6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0F623B6B20ADF25DE20060F87BFF48A3;
 			remoteInfo = AzureIoTUtility;
-		};
-		1382894560AE09990363987EAB52EF30 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 98B4B79B09699E9CB8EA1FD2D3A6DD5C;
-			remoteInfo = AzureIoTHubClient;
 		};
 		45C87F1EAE8F610334EE381D7123887B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -628,12 +618,12 @@
 			remoteGlobalIDString = 1EEBC1B2152873148B7D459CD82628E9;
 			remoteInfo = AzureIoTuAmqp;
 		};
-		4ACB2F4CA58BA8C6F66C354C88735011 /* PBXContainerItemProxy */ = {
+		4C61D0535242591E1E1FBFEA6B6F63FA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1EEBC1B2152873148B7D459CD82628E9;
-			remoteInfo = AzureIoTuAmqp;
+			remoteGlobalIDString = B9ED5194E665042005069EF06C82A050;
+			remoteInfo = "OpenSSL-Universal";
 		};
 		50EB8D602C075A8767F6822E53563FD4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -642,12 +632,26 @@
 			remoteGlobalIDString = 0F623B6B20ADF25DE20060F87BFF48A3;
 			remoteInfo = AzureIoTUtility;
 		};
-		5ADB03861E660D160B947E18E508981E /* PBXContainerItemProxy */ = {
+		562C40F405C0071181CC7816F08497D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33A34AAD0DA2A9C4BF04322A631A7795;
+			remoteInfo = AzureuMockC;
+		};
+		5956F03D95DEB03180AC329B20D2E6DB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D1622A3A18403322156C6932098E1E28;
 			remoteInfo = AzureMacroUtils;
+		};
+		5F234F0266CDB56615258912FDAE4C3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98B4B79B09699E9CB8EA1FD2D3A6DD5C;
+			remoteInfo = AzureIoTHubClient;
 		};
 		5F4FC458F663521BCC7C1BDBB21CBD8F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -655,13 +659,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = D1622A3A18403322156C6932098E1E28;
 			remoteInfo = AzureMacroUtils;
-		};
-		76A044BAF5980AC9C22EB52EC5E572AE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0BD06B5E55D97C27F3898036A0B737B0;
-			remoteInfo = AzureIoTuMqtt;
 		};
 		7AF103F9DEAB24720F6F6825A11C6B98 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -676,6 +673,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 33A34AAD0DA2A9C4BF04322A631A7795;
 			remoteInfo = AzureuMockC;
+		};
+		846E0FBD7D60A961473554AEF31486F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EEBC1B2152873148B7D459CD82628E9;
+			remoteInfo = AzureIoTuAmqp;
 		};
 		9AA06ECB1DB276E4170ADEAF9268B74A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -719,12 +723,12 @@
 			remoteGlobalIDString = D1622A3A18403322156C6932098E1E28;
 			remoteInfo = AzureMacroUtils;
 		};
-		DF1DDCEFC24F6ED69FF3B1A20043FF2A /* PBXContainerItemProxy */ = {
+		E3A0A5438FCB18DFBF23D18B3A765E3D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 33A34AAD0DA2A9C4BF04322A631A7795;
-			remoteInfo = AzureuMockC;
+			remoteGlobalIDString = 0BD06B5E55D97C27F3898036A0B737B0;
+			remoteInfo = AzureIoTuMqtt;
 		};
 		EB3D5284A4A1F9D26F312DA47DD9AFFB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -732,13 +736,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 0F623B6B20ADF25DE20060F87BFF48A3;
 			remoteInfo = AzureIoTUtility;
-		};
-		F57898B8FE575D9A5A9CD601F9C28EA7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B9ED5194E665042005069EF06C82A050;
-			remoteInfo = "OpenSSL-Universal";
 		};
 		F639A707B6F6367C23C2BBD8C1CC5B22 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1007,9 +1004,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		00E678253B6EB175C602DFAB2E292CB7 /* Pods-Sandbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sandbox.debug.xcconfig"; sourceTree = "<group>"; };
-		0100C1BD305139616458658D20715A09 /* utf8_checker.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = utf8_checker.c; path = src/utf8_checker.c; sourceTree = "<group>"; };
-		0103001FEAFA29978B64C9D5F12AA3F1 /* linux_time.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = linux_time.c; path = adapters/linux_time.c; sourceTree = "<group>"; };
+		0100C1BD305139616458658D20715A09 /* utf8_checker.c */ = {isa = PBXFileReference; includeInIndex = 1; name = utf8_checker.c; path = src/utf8_checker.c; sourceTree = "<group>"; };
+		0103001FEAFA29978B64C9D5F12AA3F1 /* linux_time.c */ = {isa = PBXFileReference; includeInIndex = 1; name = linux_time.c; path = adapters/linux_time.c; sourceTree = "<group>"; };
+		03A5CA802DCD3981EE9B40ABCA0A8DE8 /* Pods-cSDKonIOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-cSDKonIOS.modulemap"; sourceTree = "<group>"; };
 		042822E940490847F03F04A999883B54 /* AzureuMockC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AzureuMockC.release.xcconfig; sourceTree = "<group>"; };
 		054EC7BDB660040539ED5417332428DC /* envvariable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = envvariable.h; path = inc/azure_c_shared_utility/envvariable.h; sourceTree = "<group>"; };
 		0719916121827F505F2606415F3890C0 /* AzureIoTuAmqp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AzureIoTuAmqp-Info.plist"; sourceTree = "<group>"; };
@@ -1017,41 +1014,39 @@
 		089A0135CFE91B7890C882951376C081 /* shared_util_options.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = shared_util_options.h; path = inc/azure_c_shared_utility/shared_util_options.h; sourceTree = "<group>"; };
 		090D5150900371ECAD4D6008371DD199 /* datamarshaller.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = datamarshaller.h; path = inc/datamarshaller.h; sourceTree = "<group>"; };
 		0914DB21487342D90308C2C7E12C8273 /* amqpvalue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqpvalue.h; path = inc/azure_uamqp_c/amqpvalue.h; sourceTree = "<group>"; };
-		0D1556BA2B83F30B7FF00056B1926B96 /* consolelogger.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = consolelogger.c; path = src/consolelogger.c; sourceTree = "<group>"; };
+		0D1556BA2B83F30B7FF00056B1926B96 /* consolelogger.c */ = {isa = PBXFileReference; includeInIndex = 1; name = consolelogger.c; path = src/consolelogger.c; sourceTree = "<group>"; };
 		0D85C624B5817C7A21966C3BD8A97609 /* amqp_definitions_close.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_close.h; path = inc/azure_uamqp_c/amqp_definitions_close.h; sourceTree = "<group>"; };
 		0E2FD96582AACAAA5EAD67014B680ECD /* refcount.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = refcount.h; path = inc/azure_c_shared_utility/refcount.h; sourceTree = "<group>"; };
 		0E5363AA4202B75080021ED8A2607687 /* amqp_definitions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions.h; path = inc/azure_uamqp_c/amqp_definitions.h; sourceTree = "<group>"; };
 		0E72B8E231034FC14D4D370DC0ED1D11 /* iothubtransport_amqp_messenger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothubtransport_amqp_messenger.h; path = inc/internal/iothubtransport_amqp_messenger.h; sourceTree = "<group>"; };
 		0FE206BB6AB1A5B9709E7A656578C41D /* amqp_definitions_terminus_expiry_policy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_terminus_expiry_policy.h; path = inc/azure_uamqp_c/amqp_definitions_terminus_expiry_policy.h; sourceTree = "<group>"; };
-		1091577F60E343B143B72364A278678A /* Pods-Sandbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sandbox.release.xcconfig"; sourceTree = "<group>"; };
 		110D7267EECAB15438FCCB9636918701 /* serializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = serializer.h; path = inc/serializer.h; sourceTree = "<group>"; };
 		117614E2710F7E2EAD3AC8130B0D2B63 /* amqp_definitions_fields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_fields.h; path = inc/azure_uamqp_c/amqp_definitions_fields.h; sourceTree = "<group>"; };
 		134A2BD58FB4942A06308352C67B91B1 /* iothub_client_ll.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothub_client_ll.h; path = inc/iothub_client_ll.h; sourceTree = "<group>"; };
 		13B9ABA68C00C95022B22DD82381B66F /* amqp_definitions_milliseconds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_milliseconds.h; path = inc/azure_uamqp_c/amqp_definitions_milliseconds.h; sourceTree = "<group>"; };
-		140412B38BE36D8B0BCD05A38471D2F2 /* iothub_module_client.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = iothub_module_client.c; path = iothub_client/src/iothub_module_client.c; sourceTree = "<group>"; };
+		140412B38BE36D8B0BCD05A38471D2F2 /* iothub_module_client.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothub_module_client.c; path = iothub_client/src/iothub_module_client.c; sourceTree = "<group>"; };
 		14F063DB41183A46E1957ADFD45C5C43 /* optionhandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = optionhandler.h; path = inc/azure_c_shared_utility/optionhandler.h; sourceTree = "<group>"; };
-		1523FD4344E32601AC012BB39401D3E5 /* wsio.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = wsio.c; path = src/wsio.c; sourceTree = "<group>"; };
+		1523FD4344E32601AC012BB39401D3E5 /* wsio.c */ = {isa = PBXFileReference; includeInIndex = 1; name = wsio.c; path = src/wsio.c; sourceTree = "<group>"; };
 		15BED79A68265A8B6ABD5C564A69651F /* amqp_definitions_open.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_open.h; path = inc/azure_uamqp_c/amqp_definitions_open.h; sourceTree = "<group>"; };
 		16BFE14362E501382C0C41B5A9242B88 /* amqp_definitions_received.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_received.h; path = inc/azure_uamqp_c/amqp_definitions_received.h; sourceTree = "<group>"; };
 		170DCB7136118BD1D34FCB6029ABD29B /* amqp_definitions_footer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_footer.h; path = inc/azure_uamqp_c/amqp_definitions_footer.h; sourceTree = "<group>"; };
-		1758FA0725AA4B553C7CBC8E6EAE6EDB /* Pods_Sandbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sandbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		179E043BFB0937BF44F0157133D8A0FC /* message_queue.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = message_queue.c; path = iothub_client/src/message_queue.c; sourceTree = "<group>"; };
+		179E043BFB0937BF44F0157133D8A0FC /* message_queue.c */ = {isa = PBXFileReference; includeInIndex = 1; name = message_queue.c; path = iothub_client/src/message_queue.c; sourceTree = "<group>"; };
 		17E0F4AEF6C9225AADDF049F257CCEAC /* amqp_definitions_message_id_uuid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_message_id_uuid.h; path = inc/azure_uamqp_c/amqp_definitions_message_id_uuid.h; sourceTree = "<group>"; };
-		19E8F2552883EEEE325DBF639AF5F156 /* constbuffer_array.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = constbuffer_array.c; path = src/constbuffer_array.c; sourceTree = "<group>"; };
+		19E8F2552883EEEE325DBF639AF5F156 /* constbuffer_array.c */ = {isa = PBXFileReference; includeInIndex = 1; name = constbuffer_array.c; path = src/constbuffer_array.c; sourceTree = "<group>"; };
 		19F6B589344E483DF99DE3C9D83B8F83 /* tlsio_appleios.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tlsio_appleios.h; path = inc/tlsio_appleios.h; sourceTree = "<group>"; };
-		19FABAB30CC20E6AD9D19CC60498323A /* message_sender.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = message_sender.c; path = src/message_sender.c; sourceTree = "<group>"; };
+		19FABAB30CC20E6AD9D19CC60498323A /* message_sender.c */ = {isa = PBXFileReference; includeInIndex = 1; name = message_sender.c; path = src/message_sender.c; sourceTree = "<group>"; };
 		1A2FB57B2822D7BE5AF50E3450884A3E /* amqp_definitions_receiver_settle_mode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_receiver_settle_mode.h; path = inc/azure_uamqp_c/amqp_definitions_receiver_settle_mode.h; sourceTree = "<group>"; };
 		1B40479CC907FEEF3F5A61A4D696090A /* header_detect_io.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = header_detect_io.h; path = inc/azure_uamqp_c/header_detect_io.h; sourceTree = "<group>"; };
 		1B420158E58D46B23BA80A7621059636 /* server_protocol_io.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = server_protocol_io.h; path = inc/azure_uamqp_c/server_protocol_io.h; sourceTree = "<group>"; };
-		1BB54E050F8740D0A1A7E5200ACA4A7E /* usha.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = usha.c; path = src/usha.c; sourceTree = "<group>"; };
-		1C54C19FBE97A115412505585069871E /* iothub_transport_ll_private.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = iothub_transport_ll_private.c; path = iothub_client/src/iothub_transport_ll_private.c; sourceTree = "<group>"; };
+		1BB54E050F8740D0A1A7E5200ACA4A7E /* usha.c */ = {isa = PBXFileReference; includeInIndex = 1; name = usha.c; path = src/usha.c; sourceTree = "<group>"; };
+		1C54C19FBE97A115412505585069871E /* iothub_transport_ll_private.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothub_transport_ll_private.c; path = iothub_client/src/iothub_transport_ll_private.c; sourceTree = "<group>"; };
 		1C592F9029BE079199FC93C94BD93AD9 /* constbuffer_array.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = constbuffer_array.h; path = inc/azure_c_shared_utility/constbuffer_array.h; sourceTree = "<group>"; };
 		1CB7763BE48F76D658CF42E44F52C09B /* sasl_anonymous.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sasl_anonymous.h; path = inc/azure_uamqp_c/sasl_anonymous.h; sourceTree = "<group>"; };
 		1D2A16D6F0A0DF1B2955ECB5116AAF67 /* doublylinkedlist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = doublylinkedlist.h; path = inc/azure_c_shared_utility/doublylinkedlist.h; sourceTree = "<group>"; };
 		1E09497F3721614F18C6BCF917F554A7 /* uws_client.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uws_client.h; path = inc/azure_c_shared_utility/uws_client.h; sourceTree = "<group>"; };
 		1FE9B8364C5A0A896048F582CA2729AA /* methodreturn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = methodreturn.h; path = inc/methodreturn.h; sourceTree = "<group>"; };
 		2007DE9F440315864407868B307302F6 /* amqp_definitions_data.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_data.h; path = inc/azure_uamqp_c/amqp_definitions_data.h; sourceTree = "<group>"; };
-		2047A8F40D941F5B7ACE0AAB66239193 /* iothub_message.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = iothub_message.c; path = iothub_client/src/iothub_message.c; sourceTree = "<group>"; };
+		2047A8F40D941F5B7ACE0AAB66239193 /* iothub_message.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothub_message.c; path = iothub_client/src/iothub_message.c; sourceTree = "<group>"; };
 		2068F7DC10894CCD42C65BDBE29AAA98 /* amqp_definitions_address_string.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_address_string.h; path = inc/azure_uamqp_c/amqp_definitions_address_string.h; sourceTree = "<group>"; };
 		2074A39FCEFB320E1CC89C824912BF00 /* strings_types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = strings_types.h; path = inc/azure_c_shared_utility/strings_types.h; sourceTree = "<group>"; };
 		2188A79FCB5622509C1CC515B33A5DD1 /* gbnetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gbnetwork.h; path = inc/azure_c_shared_utility/gbnetwork.h; sourceTree = "<group>"; };
@@ -1061,355 +1056,357 @@
 		2210FE4125C66F143E99998297066116 /* AzureIoTuMqtt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AzureIoTuMqtt.release.xcconfig; sourceTree = "<group>"; };
 		2290B924BC0C9816E228DC7F9A495809 /* datapublisher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = datapublisher.h; path = inc/datapublisher.h; sourceTree = "<group>"; };
 		24C7538DA0538A53463D9E4651A4BC81 /* AzureIoTuAmqp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AzureIoTuAmqp.debug.xcconfig; sourceTree = "<group>"; };
-		25294BBBD1867E4191110051B862C411 /* httpapi_compact.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = httpapi_compact.c; path = adapters/httpapi_compact.c; sourceTree = "<group>"; };
+		25294BBBD1867E4191110051B862C411 /* httpapi_compact.c */ = {isa = PBXFileReference; includeInIndex = 1; name = httpapi_compact.c; path = adapters/httpapi_compact.c; sourceTree = "<group>"; };
 		252B7DC6591CF07AF0F65A00BB6C7694 /* azure_base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = azure_base64.h; path = inc/azure_c_shared_utility/azure_base64.h; sourceTree = "<group>"; };
 		26B86572C23AB75453318331390FBCB8 /* amqp_definitions_message_annotations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_message_annotations.h; path = inc/azure_uamqp_c/amqp_definitions_message_annotations.h; sourceTree = "<group>"; };
 		26D6643B07A44195AA32D538EB2558F6 /* AzureIoTUtility-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AzureIoTUtility-prefix.pch"; sourceTree = "<group>"; };
 		26DFE3F100519CB77FC513F7FFD590FD /* amqp_definitions_amqp_sequence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_amqp_sequence.h; path = inc/azure_uamqp_c/amqp_definitions_amqp_sequence.h; sourceTree = "<group>"; };
-		287BC47CE3C60CC7F525C0570C9F7C3F /* datamarshaller.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = datamarshaller.c; path = serializer/src/datamarshaller.c; sourceTree = "<group>"; };
+		287BC47CE3C60CC7F525C0570C9F7C3F /* datamarshaller.c */ = {isa = PBXFileReference; includeInIndex = 1; name = datamarshaller.c; path = serializer/src/datamarshaller.c; sourceTree = "<group>"; };
 		28A5BAB40C99651D9212665DA9E968E8 /* singlylinkedlist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = singlylinkedlist.h; path = inc/azure_c_shared_utility/singlylinkedlist.h; sourceTree = "<group>"; };
-		29EF11E906061927FE269904050FB139 /* agenttypesystem.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = agenttypesystem.c; path = serializer/src/agenttypesystem.c; sourceTree = "<group>"; };
-		2AB589B149F719BFC299FC18EBD7308E /* amqpvalue.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = amqpvalue.c; path = src/amqpvalue.c; sourceTree = "<group>"; };
+		29EF11E906061927FE269904050FB139 /* agenttypesystem.c */ = {isa = PBXFileReference; includeInIndex = 1; name = agenttypesystem.c; path = serializer/src/agenttypesystem.c; sourceTree = "<group>"; };
+		2AB589B149F719BFC299FC18EBD7308E /* amqpvalue.c */ = {isa = PBXFileReference; includeInIndex = 1; name = amqpvalue.c; path = src/amqpvalue.c; sourceTree = "<group>"; };
 		2AB66E101836225AA6B349448E095AF9 /* mqtt_message.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mqtt_message.h; path = inc/azure_umqtt_c/mqtt_message.h; sourceTree = "<group>"; };
 		2AD15D32EB2374BBDF894E4358BDD3F4 /* amqp_definitions_application_properties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_application_properties.h; path = inc/azure_uamqp_c/amqp_definitions_application_properties.h; sourceTree = "<group>"; };
 		2B0A2403127C44C06D99E09C6661F31F /* socket_listener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = socket_listener.h; path = inc/azure_uamqp_c/socket_listener.h; sourceTree = "<group>"; };
 		2B7FF83320450741CF468CB0AF88E5DE /* linux_time.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = linux_time.h; path = inc/linux_time.h; sourceTree = "<group>"; };
+		2BBDBC8EEF566BA4E29196B9E999C8E1 /* Pods_cSDKonIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_cSDKonIOS.framework; path = "Pods-cSDKonIOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C4F230740283A7C8B8528F03FB05552 /* iothub_client_retry_control.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothub_client_retry_control.h; path = inc/internal/iothub_client_retry_control.h; sourceTree = "<group>"; };
-		2DDA8C89B21AE209906E1A8ACF1513E4 /* threadapi_pthreads.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = threadapi_pthreads.c; path = adapters/threadapi_pthreads.c; sourceTree = "<group>"; };
-		2E14408843004054ED808C17CEC1FE87 /* iothubtransport_amqp_device.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = iothubtransport_amqp_device.c; path = iothub_client/src/iothubtransport_amqp_device.c; sourceTree = "<group>"; };
-		2E5E94248490D80D121EBD4F11458812 /* map.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = map.c; path = src/map.c; sourceTree = "<group>"; };
-		2F5E0725478E3C0E234C1AE907820B00 /* mqtt_codec.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mqtt_codec.c; path = src/mqtt_codec.c; sourceTree = "<group>"; };
+		2DDA8C89B21AE209906E1A8ACF1513E4 /* threadapi_pthreads.c */ = {isa = PBXFileReference; includeInIndex = 1; name = threadapi_pthreads.c; path = adapters/threadapi_pthreads.c; sourceTree = "<group>"; };
+		2E14408843004054ED808C17CEC1FE87 /* iothubtransport_amqp_device.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothubtransport_amqp_device.c; path = iothub_client/src/iothubtransport_amqp_device.c; sourceTree = "<group>"; };
+		2E5E94248490D80D121EBD4F11458812 /* map.c */ = {isa = PBXFileReference; includeInIndex = 1; name = map.c; path = src/map.c; sourceTree = "<group>"; };
+		2F5E0725478E3C0E234C1AE907820B00 /* mqtt_codec.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mqtt_codec.c; path = src/mqtt_codec.c; sourceTree = "<group>"; };
 		3018E279073462FD9F104C38AAC295DE /* httpapiexsas.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = httpapiexsas.h; path = inc/azure_c_shared_utility/httpapiexsas.h; sourceTree = "<group>"; };
 		311BE336E50AAFEDC4B70D4CECC4E4D0 /* AzureIoTuAmqp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AzureIoTuAmqp-dummy.m"; sourceTree = "<group>"; };
 		32B17480DE1C3C02A09F2E2CFF8C0431 /* AzureIoTHubClient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AzureIoTHubClient.modulemap; sourceTree = "<group>"; };
-		33A7FCFD0AD517F3963E6BA7E586E26A /* uniqueid_linux.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = uniqueid_linux.c; path = adapters/uniqueid_linux.c; sourceTree = "<group>"; };
+		33A7FCFD0AD517F3963E6BA7E586E26A /* uniqueid_linux.c */ = {isa = PBXFileReference; includeInIndex = 1; name = uniqueid_linux.c; path = adapters/uniqueid_linux.c; sourceTree = "<group>"; };
 		33C704F4910B0EFEB3FBB497DBD76488 /* amqp_definitions_sasl_challenge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_sasl_challenge.h; path = inc/azure_uamqp_c/amqp_definitions_sasl_challenge.h; sourceTree = "<group>"; };
-		340E69E69F73A1D1E70AA6E68A9A4AD4 /* constbuffer.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = constbuffer.c; path = src/constbuffer.c; sourceTree = "<group>"; };
+		340E69E69F73A1D1E70AA6E68A9A4AD4 /* constbuffer.c */ = {isa = PBXFileReference; includeInIndex = 1; name = constbuffer.c; path = src/constbuffer.c; sourceTree = "<group>"; };
 		352AB080980D02D1AF72D605C5F0E5AA /* sasl_mechanism.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sasl_mechanism.h; path = inc/azure_uamqp_c/sasl_mechanism.h; sourceTree = "<group>"; };
-		353BAE4E22C7DA9A363EB6E198B3DBB1 /* azure_base64.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = azure_base64.c; path = src/azure_base64.c; sourceTree = "<group>"; };
+		353BAE4E22C7DA9A363EB6E198B3DBB1 /* azure_base64.c */ = {isa = PBXFileReference; includeInIndex = 1; name = azure_base64.c; path = src/azure_base64.c; sourceTree = "<group>"; };
 		35A34C834F3BB0BBBBE4E633AB6A29C3 /* dataserializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dataserializer.h; path = inc/dataserializer.h; sourceTree = "<group>"; };
 		3675A2719C8C896510A19B37E6C010B2 /* sasl_plain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sasl_plain.h; path = inc/azure_uamqp_c/sasl_plain.h; sourceTree = "<group>"; };
-		37170FA71BDD46AF0EE531BFDC9B68DC /* OpenSSL.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = OpenSSL.xcframework; path = Frameworks/OpenSSL.xcframework; sourceTree = "<group>"; };
+		37170FA71BDD46AF0EE531BFDC9B68DC /* OpenSSL.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = OpenSSL.xcframework; path = Frameworks/OpenSSL.xcframework; sourceTree = "<group>"; };
 		37744B8BB5C0AE63ABAE890A7DD3675F /* AzureIoTuAmqp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AzureIoTuAmqp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3778E45DE560055D8F2EA9C560854FCF /* amqp_definitions_sasl_response.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_sasl_response.h; path = inc/azure_uamqp_c/amqp_definitions_sasl_response.h; sourceTree = "<group>"; };
-		383CC3E8E69A28DAB5A915A140C2048E /* string_tokenizer.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = string_tokenizer.c; path = src/string_tokenizer.c; sourceTree = "<group>"; };
-		388C90E398E44CC51F7EB859931C2D74 /* uamqp_messaging.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = uamqp_messaging.c; path = iothub_client/src/uamqp_messaging.c; sourceTree = "<group>"; };
+		383CC3E8E69A28DAB5A915A140C2048E /* string_tokenizer.c */ = {isa = PBXFileReference; includeInIndex = 1; name = string_tokenizer.c; path = src/string_tokenizer.c; sourceTree = "<group>"; };
+		388C90E398E44CC51F7EB859931C2D74 /* uamqp_messaging.c */ = {isa = PBXFileReference; includeInIndex = 1; name = uamqp_messaging.c; path = iothub_client/src/uamqp_messaging.c; sourceTree = "<group>"; };
 		3943C6FA99E5575360CE0A6B9E4520A2 /* umock_c_prod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = umock_c_prod.h; path = inc/umock_c/umock_c_prod.h; sourceTree = "<group>"; };
 		39D9A2B30EE8013E62BBAE7108AE3292 /* iothub_client_private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothub_client_private.h; path = inc/internal/iothub_client_private.h; sourceTree = "<group>"; };
 		3A6D758BEA9DAC1E2B3D064737921B51 /* iothub_client_options.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothub_client_options.h; path = inc/iothub_client_options.h; sourceTree = "<group>"; };
 		3BB360499129F0D42069F039DE05BBF8 /* AzureIoTuMqtt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AzureIoTuMqtt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C9F9722B7C7E712FDC3D17D0F695BA4 /* frame_codec.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = frame_codec.c; path = src/frame_codec.c; sourceTree = "<group>"; };
+		3C9F9722B7C7E712FDC3D17D0F695BA4 /* frame_codec.c */ = {isa = PBXFileReference; includeInIndex = 1; name = frame_codec.c; path = src/frame_codec.c; sourceTree = "<group>"; };
 		3E695253EAFF24C0EB4A0C368C6D2DFF /* amqp_definitions_sequence_no.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_sequence_no.h; path = inc/azure_uamqp_c/amqp_definitions_sequence_no.h; sourceTree = "<group>"; };
 		3E7340949E414F92F6D36BB5B94EAD50 /* sasl_server_mechanism.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sasl_server_mechanism.h; path = inc/azure_uamqp_c/sasl_server_mechanism.h; sourceTree = "<group>"; };
-		3EA13D1DBF6DBAA3146002F0CE6C9BE8 /* uuid.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = uuid.c; path = src/uuid.c; sourceTree = "<group>"; };
-		3EB72D4D496F2D292489049CF32F6E51 /* constmap.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = constmap.c; path = src/constmap.c; sourceTree = "<group>"; };
+		3EA13D1DBF6DBAA3146002F0CE6C9BE8 /* uuid.c */ = {isa = PBXFileReference; includeInIndex = 1; name = uuid.c; path = src/uuid.c; sourceTree = "<group>"; };
+		3EB72D4D496F2D292489049CF32F6E51 /* constmap.c */ = {isa = PBXFileReference; includeInIndex = 1; name = constmap.c; path = src/constmap.c; sourceTree = "<group>"; };
 		3F4100AC15AB5C87ED0F51F2471F8E37 /* sha.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha.h; path = inc/azure_c_shared_utility/sha.h; sourceTree = "<group>"; };
 		3FB5673914DF269650438C53FB6FBB65 /* AzureIoTuMqtt-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AzureIoTuMqtt-prefix.pch"; sourceTree = "<group>"; };
 		418DAE54AA4D987F2E61519D3ECB285E /* constmap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = constmap.h; path = inc/azure_c_shared_utility/constmap.h; sourceTree = "<group>"; };
-		41BB68B29BE71D72BCFF46E7A3FDF8AC /* buffer.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = buffer.c; path = src/buffer.c; sourceTree = "<group>"; };
+		41BB68B29BE71D72BCFF46E7A3FDF8AC /* buffer.c */ = {isa = PBXFileReference; includeInIndex = 1; name = buffer.c; path = src/buffer.c; sourceTree = "<group>"; };
 		42364773241127E0368003D0BD650406 /* iothub_transport_ll_private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothub_transport_ll_private.h; path = inc/internal/iothub_transport_ll_private.h; sourceTree = "<group>"; };
 		426516223F42EF61E7B263ADE859D900 /* iothub_client_core_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothub_client_core_common.h; path = inc/iothub_client_core_common.h; sourceTree = "<group>"; };
 		428610C3DD56601D78D45F7B763BC020 /* constbuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = constbuffer.h; path = inc/azure_c_shared_utility/constbuffer.h; sourceTree = "<group>"; };
 		4304D54462049F01DD3FBB4B201FEB22 /* consolelogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = consolelogger.h; path = inc/azure_c_shared_utility/consolelogger.h; sourceTree = "<group>"; };
-		434CF2D73308A45EFB982B9D814D52FB /* iothub_device_client_ll.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = iothub_device_client_ll.c; path = iothub_client/src/iothub_device_client_ll.c; sourceTree = "<group>"; };
+		434CF2D73308A45EFB982B9D814D52FB /* iothub_device_client_ll.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothub_device_client_ll.c; path = iothub_client/src/iothub_device_client_ll.c; sourceTree = "<group>"; };
 		435FF28E5BDE5CD9132182034C846C5B /* uniqueid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uniqueid.h; path = inc/azure_c_shared_utility/uniqueid.h; sourceTree = "<group>"; };
 		44D2DC22AAB21D222E20AEF2EAB2ACBE /* ws_url.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ws_url.h; path = inc/azure_c_shared_utility/ws_url.h; sourceTree = "<group>"; };
-		4722A753E7063B13B7AD28CF4A468348 /* messaging.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = messaging.c; path = src/messaging.c; sourceTree = "<group>"; };
+		4722A753E7063B13B7AD28CF4A468348 /* messaging.c */ = {isa = PBXFileReference; includeInIndex = 1; name = messaging.c; path = src/messaging.c; sourceTree = "<group>"; };
 		4734ECE7847590103504F36E1877A0C9 /* httpapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = httpapi.h; path = inc/azure_c_shared_utility/httpapi.h; sourceTree = "<group>"; };
 		4736478942C58DB21AFFEEFE88B06F91 /* AzureuMockC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AzureuMockC.debug.xcconfig; sourceTree = "<group>"; };
 		478D4F7871CC1EF94934BB5999311BC6 /* xlogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xlogging.h; path = inc/azure_c_shared_utility/xlogging.h; sourceTree = "<group>"; };
 		479C091384003AAE4C5FA5DD9DA2D598 /* OpenSSL-Universal-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "OpenSSL-Universal-xcframeworks.sh"; sourceTree = "<group>"; };
 		47EF8FD72BC9425C4A2D1618B417A6F6 /* sha-private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "sha-private.h"; path = "inc/azure_c_shared_utility/sha-private.h"; sourceTree = "<group>"; };
-		494D387E4C7CA74B64DCCAC0BA175D5C /* httpapiexsas.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = httpapiexsas.c; path = src/httpapiexsas.c; sourceTree = "<group>"; };
-		4A64ED5B242B874CF15738DB506AB6A5 /* iotdevice.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = iotdevice.c; path = serializer/src/iotdevice.c; sourceTree = "<group>"; };
-		4B36D48BCAC46B3D9689FD0731FA92AD /* cbs.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = cbs.c; path = src/cbs.c; sourceTree = "<group>"; };
-		4B3E551B25235D48A84DD6F5C3C6F2C6 /* string_token.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = string_token.c; path = src/string_token.c; sourceTree = "<group>"; };
-		4CAACCBA5ED88B51DF90484147E4CA42 /* session.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = session.c; path = src/session.c; sourceTree = "<group>"; };
-		4E86535426F4AC6E8F1BCF86039D40F8 /* iothubtransporthttp.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = iothubtransporthttp.c; path = iothub_client/src/iothubtransporthttp.c; sourceTree = "<group>"; };
-		4F29BF41FEA2FF809640CF6567195BBC /* httpapiex.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = httpapiex.c; path = src/httpapiex.c; sourceTree = "<group>"; };
-		4F760F5782B2C57CF577FBC3DD24C640 /* commanddecoder.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = commanddecoder.c; path = serializer/src/commanddecoder.c; sourceTree = "<group>"; };
-		50305ECFD8159D531FB5A78BBA3A0886 /* header_detect_io.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = header_detect_io.c; path = src/header_detect_io.c; sourceTree = "<group>"; };
+		494D387E4C7CA74B64DCCAC0BA175D5C /* httpapiexsas.c */ = {isa = PBXFileReference; includeInIndex = 1; name = httpapiexsas.c; path = src/httpapiexsas.c; sourceTree = "<group>"; };
+		4A64ED5B242B874CF15738DB506AB6A5 /* iotdevice.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iotdevice.c; path = serializer/src/iotdevice.c; sourceTree = "<group>"; };
+		4B36D48BCAC46B3D9689FD0731FA92AD /* cbs.c */ = {isa = PBXFileReference; includeInIndex = 1; name = cbs.c; path = src/cbs.c; sourceTree = "<group>"; };
+		4B3E551B25235D48A84DD6F5C3C6F2C6 /* string_token.c */ = {isa = PBXFileReference; includeInIndex = 1; name = string_token.c; path = src/string_token.c; sourceTree = "<group>"; };
+		4CAACCBA5ED88B51DF90484147E4CA42 /* session.c */ = {isa = PBXFileReference; includeInIndex = 1; name = session.c; path = src/session.c; sourceTree = "<group>"; };
+		4E86535426F4AC6E8F1BCF86039D40F8 /* iothubtransporthttp.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothubtransporthttp.c; path = iothub_client/src/iothubtransporthttp.c; sourceTree = "<group>"; };
+		4F29BF41FEA2FF809640CF6567195BBC /* httpapiex.c */ = {isa = PBXFileReference; includeInIndex = 1; name = httpapiex.c; path = src/httpapiex.c; sourceTree = "<group>"; };
+		4F760F5782B2C57CF577FBC3DD24C640 /* commanddecoder.c */ = {isa = PBXFileReference; includeInIndex = 1; name = commanddecoder.c; path = serializer/src/commanddecoder.c; sourceTree = "<group>"; };
+		50305ECFD8159D531FB5A78BBA3A0886 /* header_detect_io.c */ = {isa = PBXFileReference; includeInIndex = 1; name = header_detect_io.c; path = src/header_detect_io.c; sourceTree = "<group>"; };
 		50494840763E167A7A5099DDDB257CC8 /* iothubtransport_amqp_device.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothubtransport_amqp_device.h; path = inc/internal/iothubtransport_amqp_device.h; sourceTree = "<group>"; };
 		50E1452FCA7A70C8C3E8FCF97F2DC4F0 /* amqp_definitions_header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_header.h; path = inc/azure_uamqp_c/amqp_definitions_header.h; sourceTree = "<group>"; };
-		5268A37EC711F1C0C9D8892BA4DC9002 /* iothubtransportmqtt_websockets.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = iothubtransportmqtt_websockets.c; path = iothub_client/src/iothubtransportmqtt_websockets.c; sourceTree = "<group>"; };
-		52F6F82EDE653860C00B1E865EFB358F /* hmacsha256.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = hmacsha256.c; path = src/hmacsha256.c; sourceTree = "<group>"; };
+		5268A37EC711F1C0C9D8892BA4DC9002 /* iothubtransportmqtt_websockets.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothubtransportmqtt_websockets.c; path = iothub_client/src/iothubtransportmqtt_websockets.c; sourceTree = "<group>"; };
+		52F6F82EDE653860C00B1E865EFB358F /* hmacsha256.c */ = {isa = PBXFileReference; includeInIndex = 1; name = hmacsha256.c; path = src/hmacsha256.c; sourceTree = "<group>"; };
 		539A4850228E40B35C1B82BEBB8CF13A /* message.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = message.h; path = inc/azure_uamqp_c/message.h; sourceTree = "<group>"; };
-		53A60E56F0DFE3DE548B7BF68568953E /* memory_data.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = memory_data.c; path = src/memory_data.c; sourceTree = "<group>"; };
+		53A60E56F0DFE3DE548B7BF68568953E /* memory_data.c */ = {isa = PBXFileReference; includeInIndex = 1; name = memory_data.c; path = src/memory_data.c; sourceTree = "<group>"; };
 		53FB212485F8ED06904B97572616D1C8 /* strings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = strings.h; path = inc/azure_c_shared_utility/strings.h; sourceTree = "<group>"; };
 		5403ABE61E31EBBF011F996A437FE533 /* AzureIoTHubClient-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AzureIoTHubClient-Info.plist"; sourceTree = "<group>"; };
-		5518111AB1EDA0E5906DE090AC0BAE0A /* iothub_client_ll_uploadtoblob.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = iothub_client_ll_uploadtoblob.c; path = iothub_client/src/iothub_client_ll_uploadtoblob.c; sourceTree = "<group>"; };
+		5518111AB1EDA0E5906DE090AC0BAE0A /* iothub_client_ll_uploadtoblob.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothub_client_ll_uploadtoblob.c; path = iothub_client/src/iothub_client_ll_uploadtoblob.c; sourceTree = "<group>"; };
 		5554010149D532ED6598E0614685AC20 /* amqp_types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_types.h; path = inc/azure_uamqp_c/amqp_types.h; sourceTree = "<group>"; };
 		557DF5319D542FBF70C86248BAA6F49C /* iothub_client_edge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothub_client_edge.h; path = inc/internal/iothub_client_edge.h; sourceTree = "<group>"; };
-		5658E1E104C225167AAB6609FBFF2977 /* agenttime.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = agenttime.c; path = pal/agenttime.c; sourceTree = "<group>"; };
-		57976365E7C564FDCEF223DD6F0DF900 /* sasl_plain.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sasl_plain.c; path = src/sasl_plain.c; sourceTree = "<group>"; };
-		594AD7BC358B64A4CD780D9362F409D9 /* iothubtransport_amqp_cbs_auth.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = iothubtransport_amqp_cbs_auth.c; path = iothub_client/src/iothubtransport_amqp_cbs_auth.c; sourceTree = "<group>"; };
+		5658E1E104C225167AAB6609FBFF2977 /* agenttime.c */ = {isa = PBXFileReference; includeInIndex = 1; name = agenttime.c; path = pal/agenttime.c; sourceTree = "<group>"; };
+		57976365E7C564FDCEF223DD6F0DF900 /* sasl_plain.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sasl_plain.c; path = src/sasl_plain.c; sourceTree = "<group>"; };
+		594AD7BC358B64A4CD780D9362F409D9 /* iothubtransport_amqp_cbs_auth.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothubtransport_amqp_cbs_auth.c; path = iothub_client/src/iothubtransport_amqp_cbs_auth.c; sourceTree = "<group>"; };
 		5A37BD9AD2946F74C6DA8DFAE20F1091 /* iothub_device_client.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothub_device_client.h; path = inc/iothub_device_client.h; sourceTree = "<group>"; };
 		5A5DA0FDE03289E381D49015D17AFE86 /* tlsio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tlsio.h; path = inc/azure_c_shared_utility/tlsio.h; sourceTree = "<group>"; };
 		5AD644C6A74831E200B588CB47BD0A62 /* amqp_definitions_connection_error.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_connection_error.h; path = inc/azure_uamqp_c/amqp_definitions_connection_error.h; sourceTree = "<group>"; };
 		5B47AACD6026A3D1A4697C254FD0C611 /* socketio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = socketio.h; path = inc/azure_c_shared_utility/socketio.h; sourceTree = "<group>"; };
 		5BA6182C0C30318DE481173A124D08DB /* amqp_definitions_properties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_properties.h; path = inc/azure_uamqp_c/amqp_definitions_properties.h; sourceTree = "<group>"; };
-		5C2B66F18813E8D981914DB213CF32F3 /* message.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = message.c; path = src/message.c; sourceTree = "<group>"; };
-		5CA5E2EE9322C63178FE61151AED5EEF /* iothubtransportamqp_websockets.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = iothubtransportamqp_websockets.c; path = iothub_client/src/iothubtransportamqp_websockets.c; sourceTree = "<group>"; };
+		5C2B66F18813E8D981914DB213CF32F3 /* message.c */ = {isa = PBXFileReference; includeInIndex = 1; name = message.c; path = src/message.c; sourceTree = "<group>"; };
+		5CA5E2EE9322C63178FE61151AED5EEF /* iothubtransportamqp_websockets.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothubtransportamqp_websockets.c; path = iothub_client/src/iothubtransportamqp_websockets.c; sourceTree = "<group>"; };
 		5D2332F5731E79F1A21AE977E1CAB5DE /* amqp_definitions_message_id_binary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_message_id_binary.h; path = inc/azure_uamqp_c/amqp_definitions_message_id_binary.h; sourceTree = "<group>"; };
 		5D60CAB705A561BA89EC95836D381727 /* sasl_mssbcbs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sasl_mssbcbs.h; path = inc/azure_uamqp_c/sasl_mssbcbs.h; sourceTree = "<group>"; };
-		5D9FB10F14A6F5CBA2309CB5A1E97E7C /* schema.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = schema.c; path = serializer/src/schema.c; sourceTree = "<group>"; };
+		5D9FB10F14A6F5CBA2309CB5A1E97E7C /* schema.c */ = {isa = PBXFileReference; includeInIndex = 1; name = schema.c; path = serializer/src/schema.c; sourceTree = "<group>"; };
 		5DCBEB2A22EEFB067ED8AEC7001D8DA6 /* gb_stdio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gb_stdio.h; path = inc/azure_c_shared_utility/gb_stdio.h; sourceTree = "<group>"; };
 		5E0EB62F76A2AF164FA787A6ED3958ED /* OpenSSL-Universal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OpenSSL-Universal.debug.xcconfig"; sourceTree = "<group>"; };
-		5EF65FA174ED73DF2FBCFE73CBABF2DC /* iothubtransport_amqp_twin_messenger.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = iothubtransport_amqp_twin_messenger.c; path = iothub_client/src/iothubtransport_amqp_twin_messenger.c; sourceTree = "<group>"; };
+		5EF65FA174ED73DF2FBCFE73CBABF2DC /* iothubtransport_amqp_twin_messenger.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothubtransport_amqp_twin_messenger.c; path = iothub_client/src/iothubtransport_amqp_twin_messenger.c; sourceTree = "<group>"; };
 		6041EDEEA5AA56D8FF534885E664B21C /* amqp_definitions_delivery_annotations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_delivery_annotations.h; path = inc/azure_uamqp_c/amqp_definitions_delivery_annotations.h; sourceTree = "<group>"; };
-		60E94130BC17279FB7167A75853AB88F /* tlsio_options.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = tlsio_options.c; path = pal/tlsio_options.c; sourceTree = "<group>"; };
+		60CA0B741E5C42C6715B1EC0C662E55D /* Pods-cSDKonIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cSDKonIOS.release.xcconfig"; sourceTree = "<group>"; };
+		60E94130BC17279FB7167A75853AB88F /* tlsio_options.c */ = {isa = PBXFileReference; includeInIndex = 1; name = tlsio_options.c; path = pal/tlsio_options.c; sourceTree = "<group>"; };
 		61401D4BE875518A58457C3E7C25F12E /* string_tokenizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = string_tokenizer.h; path = inc/azure_c_shared_utility/string_tokenizer.h; sourceTree = "<group>"; };
 		624F8EF3E2AE28ECBAB65E7ADB6B5A4E /* jsondecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jsondecoder.h; path = inc/jsondecoder.h; sourceTree = "<group>"; };
+		62504317EA7A54F30B039C3BED19D4FF /* Pods-cSDKonIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cSDKonIOS.debug.xcconfig"; sourceTree = "<group>"; };
 		625791CB15FC05CDB3576B8C4C1CB81F /* agenttime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = agenttime.h; path = inc/azure_c_shared_utility/agenttime.h; sourceTree = "<group>"; };
-		631BE41CACE23F2511B40A08903F3CC4 /* iothubtransport_amqp_telemetry_messenger.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = iothubtransport_amqp_telemetry_messenger.c; path = iothub_client/src/iothubtransport_amqp_telemetry_messenger.c; sourceTree = "<group>"; };
-		63E9AFD9AF0EAA896C33C38733D4B650 /* gb_time.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = gb_time.c; path = src/gb_time.c; sourceTree = "<group>"; };
+		631BE41CACE23F2511B40A08903F3CC4 /* iothubtransport_amqp_telemetry_messenger.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothubtransport_amqp_telemetry_messenger.c; path = iothub_client/src/iothubtransport_amqp_telemetry_messenger.c; sourceTree = "<group>"; };
+		63E9AFD9AF0EAA896C33C38733D4B650 /* gb_time.c */ = {isa = PBXFileReference; includeInIndex = 1; name = gb_time.c; path = src/gb_time.c; sourceTree = "<group>"; };
 		646218275FC8D232FDF6FD922F0E59AE /* amqp_definitions_message_id_string.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_message_id_string.h; path = inc/azure_uamqp_c/amqp_definitions_message_id_string.h; sourceTree = "<group>"; };
 		648614A6AD2A600905D3686878F28CAC /* message_sender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = message_sender.h; path = inc/azure_uamqp_c/message_sender.h; sourceTree = "<group>"; };
 		64DE55F1C65FFF396C983E6B17D7E420 /* xio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xio.h; path = inc/azure_c_shared_utility/xio.h; sourceTree = "<group>"; };
 		6545FDAF8B5D4FAB65DA5B9E88901AC9 /* macro_utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = macro_utils.h; path = inc/azure_macro_utils/macro_utils.h; sourceTree = "<group>"; };
-		654A87167991CC5E32C40472CDC53130 /* xio.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = xio.c; path = src/xio.c; sourceTree = "<group>"; };
+		654A87167991CC5E32C40472CDC53130 /* xio.c */ = {isa = PBXFileReference; includeInIndex = 1; name = xio.c; path = src/xio.c; sourceTree = "<group>"; };
 		65B4B7E156FF7DE6C42292FC91C63606 /* hmacsha256.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmacsha256.h; path = inc/azure_c_shared_utility/hmacsha256.h; sourceTree = "<group>"; };
-		65C6A76BF383799DE46AAA80C2D27DBF /* iothub_client.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = iothub_client.c; path = iothub_client/src/iothub_client.c; sourceTree = "<group>"; };
+		65C6A76BF383799DE46AAA80C2D27DBF /* iothub_client.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothub_client.c; path = iothub_client/src/iothub_client.c; sourceTree = "<group>"; };
 		6716635E89C10323F37CB924B62E70A1 /* amqp_definitions_released.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_released.h; path = inc/azure_uamqp_c/amqp_definitions_released.h; sourceTree = "<group>"; };
 		6945EDD79F062E3C3C44431AEF449BD3 /* amqp_definitions_flow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_flow.h; path = inc/azure_uamqp_c/amqp_definitions_flow.h; sourceTree = "<group>"; };
 		69A579A5D722635CD8CE8AE271FCF328 /* AzureIoTuAmqp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AzureIoTuAmqp.modulemap; sourceTree = "<group>"; };
 		69E42A3672F505C573736129707BC266 /* schema.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = schema.h; path = inc/schema.h; sourceTree = "<group>"; };
 		6A2CF058374232D039600451310163FF /* AzureIoTHubClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AzureIoTHubClient.release.xcconfig; sourceTree = "<group>"; };
-		6B25FD682E38EB005722D36C38455EA0 /* strings.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = strings.c; path = src/strings.c; sourceTree = "<group>"; };
-		6B9F1CA5A505B3C12D3C72E11EB908D0 /* async_operation.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = async_operation.c; path = src/async_operation.c; sourceTree = "<group>"; };
+		6B25FD682E38EB005722D36C38455EA0 /* strings.c */ = {isa = PBXFileReference; includeInIndex = 1; name = strings.c; path = src/strings.c; sourceTree = "<group>"; };
+		6B9F1CA5A505B3C12D3C72E11EB908D0 /* async_operation.c */ = {isa = PBXFileReference; includeInIndex = 1; name = async_operation.c; path = src/async_operation.c; sourceTree = "<group>"; };
 		6C57BC303EC9F9A0EEF3C3E1D0F043BD /* constbuffer_array_batcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = constbuffer_array_batcher.h; path = inc/azure_c_shared_utility/constbuffer_array_batcher.h; sourceTree = "<group>"; };
 		6CC961B4EC8A4401372720D70DEEC6EC /* connection_string_parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = connection_string_parser.h; path = inc/azure_c_shared_utility/connection_string_parser.h; sourceTree = "<group>"; };
-		6DB085B6DC076F5D3BDBEBC3CA789074 /* iothubtransport_amqp_messenger.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = iothubtransport_amqp_messenger.c; path = iothub_client/src/iothubtransport_amqp_messenger.c; sourceTree = "<group>"; };
-		6EF4DC6373AC0813389E383511607F6A /* http_proxy_io.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = http_proxy_io.c; path = src/http_proxy_io.c; sourceTree = "<group>"; };
+		6DB085B6DC076F5D3BDBEBC3CA789074 /* iothubtransport_amqp_messenger.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothubtransport_amqp_messenger.c; path = iothub_client/src/iothubtransport_amqp_messenger.c; sourceTree = "<group>"; };
+		6EF4DC6373AC0813389E383511607F6A /* http_proxy_io.c */ = {isa = PBXFileReference; includeInIndex = 1; name = http_proxy_io.c; path = src/http_proxy_io.c; sourceTree = "<group>"; };
 		6EFC13CC9D21EF5420480E9E56BC27C2 /* vector_types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vector_types.h; path = inc/azure_c_shared_utility/vector_types.h; sourceTree = "<group>"; };
 		6F457F3C05A128A265EFADC83E3DD740 /* amqp_definitions_ietf_language_tag.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_ietf_language_tag.h; path = inc/azure_uamqp_c/amqp_definitions_ietf_language_tag.h; sourceTree = "<group>"; };
-		6F8CB6CC8A51EBF5D22E0D329D9A8096 /* iothubtransport_mqtt_common.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = iothubtransport_mqtt_common.c; path = iothub_client/src/iothubtransport_mqtt_common.c; sourceTree = "<group>"; };
+		6F8CB6CC8A51EBF5D22E0D329D9A8096 /* iothubtransport_mqtt_common.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothubtransport_mqtt_common.c; path = iothub_client/src/iothubtransport_mqtt_common.c; sourceTree = "<group>"; };
 		705198B16248BCE126F77EA9EC1C81C4 /* uamqp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uamqp.h; path = inc/azure_uamqp_c/uamqp.h; sourceTree = "<group>"; };
-		706B0FA98B2049A6C5A02A88DC65C2FB /* doublylinkedlist.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = doublylinkedlist.c; path = src/doublylinkedlist.c; sourceTree = "<group>"; };
+		706B0FA98B2049A6C5A02A88DC65C2FB /* doublylinkedlist.c */ = {isa = PBXFileReference; includeInIndex = 1; name = doublylinkedlist.c; path = src/doublylinkedlist.c; sourceTree = "<group>"; };
 		70A439C4F69BD02F8A11E4E0B4E46E0D /* amqp_definitions_link_error.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_link_error.h; path = inc/azure_uamqp_c/amqp_definitions_link_error.h; sourceTree = "<group>"; };
-		71192086ADF7A3EB02BC2A02B30AEEBF /* sha224.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sha224.c; path = src/sha224.c; sourceTree = "<group>"; };
-		7433EA8211292EDFC170081D718BF9BC /* schemalib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = schemalib.c; path = serializer/src/schemalib.c; sourceTree = "<group>"; };
+		71192086ADF7A3EB02BC2A02B30AEEBF /* sha224.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sha224.c; path = src/sha224.c; sourceTree = "<group>"; };
+		7433EA8211292EDFC170081D718BF9BC /* schemalib.c */ = {isa = PBXFileReference; includeInIndex = 1; name = schemalib.c; path = serializer/src/schemalib.c; sourceTree = "<group>"; };
 		744E3B38A3943EA9B19B32C5D6CC562B /* AzureIoTuMqtt-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AzureIoTuMqtt-Info.plist"; sourceTree = "<group>"; };
 		74E46C73AC5B3C46497C0FA11D8E3525 /* iothubtransport_amqp_twin_messenger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothubtransport_amqp_twin_messenger.h; path = inc/internal/iothubtransport_amqp_twin_messenger.h; sourceTree = "<group>"; };
 		760FB5A662EB12C4E5E38EEA5EEE673C /* amqp_definitions_session_error.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_session_error.h; path = inc/azure_uamqp_c/amqp_definitions_session_error.h; sourceTree = "<group>"; };
-		768085A7FFFD7ACD6E08E4F7CC3A7FC8 /* optionhandler.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = optionhandler.c; path = src/optionhandler.c; sourceTree = "<group>"; };
-		77716CC1EDCA602046DB5A18A3D030C3 /* jsonencoder.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = jsonencoder.c; path = serializer/src/jsonencoder.c; sourceTree = "<group>"; };
-		77BEC4CBB5B943E177B10F22B44EB535 /* singlylinkedlist.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = singlylinkedlist.c; path = src/singlylinkedlist.c; sourceTree = "<group>"; };
-		784A322AE1D4541960C5DEFB40747635 /* iothubtransportmqtt.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = iothubtransportmqtt.c; path = iothub_client/src/iothubtransportmqtt.c; sourceTree = "<group>"; };
+		768085A7FFFD7ACD6E08E4F7CC3A7FC8 /* optionhandler.c */ = {isa = PBXFileReference; includeInIndex = 1; name = optionhandler.c; path = src/optionhandler.c; sourceTree = "<group>"; };
+		77716CC1EDCA602046DB5A18A3D030C3 /* jsonencoder.c */ = {isa = PBXFileReference; includeInIndex = 1; name = jsonencoder.c; path = serializer/src/jsonencoder.c; sourceTree = "<group>"; };
+		77BEC4CBB5B943E177B10F22B44EB535 /* singlylinkedlist.c */ = {isa = PBXFileReference; includeInIndex = 1; name = singlylinkedlist.c; path = src/singlylinkedlist.c; sourceTree = "<group>"; };
+		784A322AE1D4541960C5DEFB40747635 /* iothubtransportmqtt.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothubtransportmqtt.c; path = iothub_client/src/iothubtransportmqtt.c; sourceTree = "<group>"; };
 		78EB21A483044C7CD5E3AF17333C7CDD /* iothub_module_client.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothub_module_client.h; path = inc/iothub_module_client.h; sourceTree = "<group>"; };
 		7A46AAB119A035B8AF89FDB4BFE352AA /* amqp_definitions_terminus_durability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_terminus_durability.h; path = inc/azure_uamqp_c/amqp_definitions_terminus_durability.h; sourceTree = "<group>"; };
-		7A7B8C008D13821ED2625B12C4F78450 /* AzureIoTuMqtt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AzureIoTuMqtt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A7B8C008D13821ED2625B12C4F78450 /* AzureIoTuMqtt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AzureIoTuMqtt.framework; path = AzureIoTuMqtt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B0D57D3603AF5A17789FB696CFA822F /* amqp_definitions_annotations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_annotations.h; path = inc/azure_uamqp_c/amqp_definitions_annotations.h; sourceTree = "<group>"; };
 		7B955DCAFC769F8F61EC4A788AA578F8 /* message_receiver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = message_receiver.h; path = inc/azure_uamqp_c/message_receiver.h; sourceTree = "<group>"; };
 		7CFE2C82E63869B0924E5E0FA201C144 /* amqp_definitions_sender_settle_mode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_sender_settle_mode.h; path = inc/azure_uamqp_c/amqp_definitions_sender_settle_mode.h; sourceTree = "<group>"; };
-		7D99B30FB42816149F7CA37FD4E1C32F /* sasl_server_mechanism.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sasl_server_mechanism.c; path = src/sasl_server_mechanism.c; sourceTree = "<group>"; };
-		7DA7FB01911125AC08E379CD748338B5 /* tlsio_appleios.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = tlsio_appleios.c; path = "pal/ios-osx/tlsio_appleios.c"; sourceTree = "<group>"; };
+		7D99B30FB42816149F7CA37FD4E1C32F /* sasl_server_mechanism.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sasl_server_mechanism.c; path = src/sasl_server_mechanism.c; sourceTree = "<group>"; };
+		7DA7FB01911125AC08E379CD748338B5 /* tlsio_appleios.c */ = {isa = PBXFileReference; includeInIndex = 1; name = tlsio_appleios.c; path = "pal/ios-osx/tlsio_appleios.c"; sourceTree = "<group>"; };
 		7DE7D9D0F0145C36798ABDFBAB64EA41 /* sasl_frame_codec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sasl_frame_codec.h; path = inc/azure_uamqp_c/sasl_frame_codec.h; sourceTree = "<group>"; };
 		7E27A77E24328AAE5C1788971B2647C5 /* iothubtransporthttp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothubtransporthttp.h; path = inc/iothubtransporthttp.h; sourceTree = "<group>"; };
 		7E7FD7F0435917E91D376B5AF5157745 /* map.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = map.h; path = inc/azure_c_shared_utility/map.h; sourceTree = "<group>"; };
+		80499649D7C3F0141D227AFD274E41F7 /* Pods-cSDKonIOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cSDKonIOS-acknowledgements.plist"; sourceTree = "<group>"; };
 		808E2821684BDA129641E5588600AD35 /* mqttconst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mqttconst.h; path = inc/azure_umqtt_c/mqttconst.h; sourceTree = "<group>"; };
-		8209BF09BD0665C8835DBCC137E7C641 /* sha1.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sha1.c; path = src/sha1.c; sourceTree = "<group>"; };
+		8209BF09BD0665C8835DBCC137E7C641 /* sha1.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sha1.c; path = src/sha1.c; sourceTree = "<group>"; };
 		829F2E221669F914AC07ED258DB6E218 /* amqp_definitions_amqp_value.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_amqp_value.h; path = inc/azure_uamqp_c/amqp_definitions_amqp_value.h; sourceTree = "<group>"; };
 		832A7140D73DABB6F7A520C2310FF14D /* platform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = platform.h; path = inc/azure_c_shared_utility/platform.h; sourceTree = "<group>"; };
 		835CA0199FCCE5B0C008B9A585924059 /* iothub_internal_consts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothub_internal_consts.h; path = inc/internal/iothub_internal_consts.h; sourceTree = "<group>"; };
-		84CD67B7BF84D1AF66099E1970A4B4D6 /* amqp_frame_codec.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = amqp_frame_codec.c; path = src/amqp_frame_codec.c; sourceTree = "<group>"; };
-		853244BBA04826F2133695BC5390CEE8 /* iothub_client_authorization.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = iothub_client_authorization.c; path = iothub_client/src/iothub_client_authorization.c; sourceTree = "<group>"; };
+		84CD67B7BF84D1AF66099E1970A4B4D6 /* amqp_frame_codec.c */ = {isa = PBXFileReference; includeInIndex = 1; name = amqp_frame_codec.c; path = src/amqp_frame_codec.c; sourceTree = "<group>"; };
+		853244BBA04826F2133695BC5390CEE8 /* iothub_client_authorization.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothub_client_authorization.c; path = iothub_client/src/iothub_client_authorization.c; sourceTree = "<group>"; };
 		85AF94680C7CD5F832F69E7EFA369FC6 /* amqp_definitions_message_id_ulong.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_message_id_ulong.h; path = inc/azure_uamqp_c/amqp_definitions_message_id_ulong.h; sourceTree = "<group>"; };
 		866B1598ADB9DA76B65EE918419E9029 /* iothubtransportamqp_methods.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothubtransportamqp_methods.h; path = inc/internal/iothubtransportamqp_methods.h; sourceTree = "<group>"; };
-		87050A50D4E9DA028A896EE1ED2612C6 /* xlogging.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = xlogging.c; path = src/xlogging.c; sourceTree = "<group>"; };
+		87050A50D4E9DA028A896EE1ED2612C6 /* xlogging.c */ = {isa = PBXFileReference; includeInIndex = 1; name = xlogging.c; path = src/xlogging.c; sourceTree = "<group>"; };
 		8713E160471D9309C94AAC434D12BBE8 /* AzureIoTHubClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AzureIoTHubClient.debug.xcconfig; sourceTree = "<group>"; };
-		87471DFA5A5BF3F9FE2B7B9914ECB917 /* sha384-512.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = "sha384-512.c"; path = "src/sha384-512.c"; sourceTree = "<group>"; };
-		876BE21F2F506CB6548AEBE23365D2B3 /* mqtt_client.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mqtt_client.c; path = src/mqtt_client.c; sourceTree = "<group>"; };
+		87471DFA5A5BF3F9FE2B7B9914ECB917 /* sha384-512.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "sha384-512.c"; path = "src/sha384-512.c"; sourceTree = "<group>"; };
+		876BE21F2F506CB6548AEBE23365D2B3 /* mqtt_client.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mqtt_client.c; path = src/mqtt_client.c; sourceTree = "<group>"; };
 		87EAF935BD3C9C9A686F942EFBFA408B /* string_tokenizer_types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = string_tokenizer_types.h; path = inc/azure_c_shared_utility/string_tokenizer_types.h; sourceTree = "<group>"; };
 		88D2E64065321DFC72FB7DD8AC50E956 /* amqp_definitions_error.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_error.h; path = inc/azure_uamqp_c/amqp_definitions_error.h; sourceTree = "<group>"; };
-		8B2A0E1262927799C71D6C0823DF9415 /* link.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = link.c; path = src/link.c; sourceTree = "<group>"; };
-		8B8124E025C74700661E1186C93CDD51 /* platform_appleios.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = platform_appleios.c; path = "pal/ios-osx/platform_appleios.c"; sourceTree = "<group>"; };
-		8BB19998F99DCA2AE980AE505D5F36EB /* methodreturn.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = methodreturn.c; path = serializer/src/methodreturn.c; sourceTree = "<group>"; };
+		8B2A0E1262927799C71D6C0823DF9415 /* link.c */ = {isa = PBXFileReference; includeInIndex = 1; name = link.c; path = src/link.c; sourceTree = "<group>"; };
+		8B8124E025C74700661E1186C93CDD51 /* platform_appleios.c */ = {isa = PBXFileReference; includeInIndex = 1; name = platform_appleios.c; path = "pal/ios-osx/platform_appleios.c"; sourceTree = "<group>"; };
+		8BB19998F99DCA2AE980AE505D5F36EB /* methodreturn.c */ = {isa = PBXFileReference; includeInIndex = 1; name = methodreturn.c; path = serializer/src/methodreturn.c; sourceTree = "<group>"; };
 		8BBDBCFD9DA9EF79F25C83FBB6B79281 /* iothubtransport_amqp_connection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothubtransport_amqp_connection.h; path = inc/internal/iothubtransport_amqp_connection.h; sourceTree = "<group>"; };
 		8CC1036D6B1F0C9E0DB2A459449F8E7E /* AzureIoTuMqtt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AzureIoTuMqtt-dummy.m"; sourceTree = "<group>"; };
 		8CC5B72DDBE2EB7582E0CD596483D238 /* iothubtransport_amqp_telemetry_messenger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothubtransport_amqp_telemetry_messenger.h; path = inc/internal/iothubtransport_amqp_telemetry_messenger.h; sourceTree = "<group>"; };
 		8DAF58959948B783940C8CD28F6A807A /* buffer_.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffer_.h; path = inc/azure_c_shared_utility/buffer_.h; sourceTree = "<group>"; };
-		8DB7BC50F2B64E093981D1A71962BFFC /* amqp_management.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = amqp_management.c; path = src/amqp_management.c; sourceTree = "<group>"; };
+		8DB7BC50F2B64E093981D1A71962BFFC /* amqp_management.c */ = {isa = PBXFileReference; includeInIndex = 1; name = amqp_management.c; path = src/amqp_management.c; sourceTree = "<group>"; };
 		8DC9D93B470B7AD514BF1561F58DCBAD /* amqp_definitions_delivery_tag.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_delivery_tag.h; path = inc/azure_uamqp_c/amqp_definitions_delivery_tag.h; sourceTree = "<group>"; };
 		8E0D0F1F1FF0DF014DD47E20BEA9E5F9 /* amqp_definitions_transfer_number.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_transfer_number.h; path = inc/azure_uamqp_c/amqp_definitions_transfer_number.h; sourceTree = "<group>"; };
-		8F284BE189A52FC435507CBB29A1B886 /* crt_abstractions.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = crt_abstractions.c; path = src/crt_abstractions.c; sourceTree = "<group>"; };
+		8F284BE189A52FC435507CBB29A1B886 /* crt_abstractions.c */ = {isa = PBXFileReference; includeInIndex = 1; name = crt_abstractions.c; path = src/crt_abstractions.c; sourceTree = "<group>"; };
 		90199107252B9B84F2BD61EF5AC29275 /* AzureIoTUtility.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AzureIoTUtility.debug.xcconfig; sourceTree = "<group>"; };
 		91541C7F44019FCE754141E869C394AE /* tickcounter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tickcounter.h; path = inc/azure_c_shared_utility/tickcounter.h; sourceTree = "<group>"; };
 		91DD74E4BD450A1579CE901207230698 /* frame_codec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = frame_codec.h; path = inc/azure_uamqp_c/frame_codec.h; sourceTree = "<group>"; };
 		937C6248FCB392C2BF22FCDFBA5D4AD5 /* iothub_client_hsm_ll.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothub_client_hsm_ll.h; path = inc/internal/iothub_client_hsm_ll.h; sourceTree = "<group>"; };
 		949B25D5239040BDAC4693D2DD840E65 /* mqtt_client.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mqtt_client.h; path = inc/azure_umqtt_c/mqtt_client.h; sourceTree = "<group>"; };
-		94F6F845AB949B24959F5AFCC86354E6 /* httpheaders.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = httpheaders.c; path = src/httpheaders.c; sourceTree = "<group>"; };
+		94F6F845AB949B24959F5AFCC86354E6 /* httpheaders.c */ = {isa = PBXFileReference; includeInIndex = 1; name = httpheaders.c; path = src/httpheaders.c; sourceTree = "<group>"; };
 		958B065FF13CA3C856A95E488AEE3C88 /* cbs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cbs.h; path = inc/azure_uamqp_c/cbs.h; sourceTree = "<group>"; };
-		95A6E332C505A4AF45E1EC444FB8CE8E /* iothub_client_diagnostic.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = iothub_client_diagnostic.c; path = iothub_client/src/iothub_client_diagnostic.c; sourceTree = "<group>"; };
+		95A6E332C505A4AF45E1EC444FB8CE8E /* iothub_client_diagnostic.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothub_client_diagnostic.c; path = iothub_client/src/iothub_client_diagnostic.c; sourceTree = "<group>"; };
 		96035E3231FBF60B275A2A89F70387A1 /* AzureIoTHubClient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AzureIoTHubClient-prefix.pch"; sourceTree = "<group>"; };
 		96E106AD9FA67B7D707BFF9544A3FE4F /* agenttypesystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = agenttypesystem.h; path = inc/agenttypesystem.h; sourceTree = "<group>"; };
 		97CC5F92BFCB9DEF5A2E90DB9CDEDF3E /* hmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmac.h; path = inc/azure_c_shared_utility/hmac.h; sourceTree = "<group>"; };
-		9A638249936EB9AFE7787D6F3C3B38AC /* lock_pthreads.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lock_pthreads.c; path = adapters/lock_pthreads.c; sourceTree = "<group>"; };
+		9A638249936EB9AFE7787D6F3C3B38AC /* lock_pthreads.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lock_pthreads.c; path = adapters/lock_pthreads.c; sourceTree = "<group>"; };
 		9A74D83E4C6703C621B9A603C511EC7E /* amqp_definitions_handle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_handle.h; path = inc/azure_uamqp_c/amqp_definitions_handle.h; sourceTree = "<group>"; };
 		9A91204D13BC4D1D4F62B3A225140ABA /* tlsio_cyclonessl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tlsio_cyclonessl.h; path = inc/azure_c_shared_utility/tlsio_cyclonessl.h; sourceTree = "<group>"; };
 		9B44401EEC12C09B063FAD5951977C22 /* iothubtransportmqtt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothubtransportmqtt.h; path = inc/iothubtransportmqtt.h; sourceTree = "<group>"; };
-		9B5E24DFF84EF1E35AB833007F1038AC /* constbuffer_array_batcher.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = constbuffer_array_batcher.c; path = src/constbuffer_array_batcher.c; sourceTree = "<group>"; };
-		9C133CCC545B0372C5461CEAFC077DAE /* Pods-Sandbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sandbox-dummy.m"; sourceTree = "<group>"; };
+		9B5E24DFF84EF1E35AB833007F1038AC /* constbuffer_array_batcher.c */ = {isa = PBXFileReference; includeInIndex = 1; name = constbuffer_array_batcher.c; path = src/constbuffer_array_batcher.c; sourceTree = "<group>"; };
+		9B908BCB3C0BABE9C81E866CC5396895 /* Pods-cSDKonIOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cSDKonIOS-Info.plist"; sourceTree = "<group>"; };
 		9C4395692E4D68AA5A65879CCEC884D2 /* AzureIoTuMqtt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AzureIoTuMqtt.modulemap; sourceTree = "<group>"; };
 		9CA66A7FCFC14DFBA26C13C4797E033C /* const_defines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = const_defines.h; path = inc/azure_c_shared_utility/const_defines.h; sourceTree = "<group>"; };
 		9D4BA74AE5713E6816058414D0221B37 /* multitree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = multitree.h; path = inc/multitree.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DA524B57CFC1322F726CA7D379F487F /* wsio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wsio.h; path = inc/azure_c_shared_utility/wsio.h; sourceTree = "<group>"; };
 		9E23D4DA30CC72791697BAA20AC54024 /* connection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = connection.h; path = inc/azure_uamqp_c/connection.h; sourceTree = "<group>"; };
-		9F035E15B6DA4F55F7DE624C501B1134 /* Pods-Sandbox-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sandbox-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9F333F5FD075A6BC722663D6A1A1A6F0 /* iothub_client_retry_control.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = iothub_client_retry_control.c; path = iothub_client/src/iothub_client_retry_control.c; sourceTree = "<group>"; };
+		9F333F5FD075A6BC722663D6A1A1A6F0 /* iothub_client_retry_control.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothub_client_retry_control.c; path = iothub_client/src/iothub_client_retry_control.c; sourceTree = "<group>"; };
 		A0D83A2C086CA948966F99F79A22D848 /* amqp_definitions_disposition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_disposition.h; path = inc/azure_uamqp_c/amqp_definitions_disposition.h; sourceTree = "<group>"; };
 		A1E0AF688EEAB94CF2345A9711377825 /* amqp_definitions_message_format.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_message_format.h; path = inc/azure_uamqp_c/amqp_definitions_message_format.h; sourceTree = "<group>"; };
 		A1ED209BFCE7425889F57394739B68C4 /* amqp_definitions_node_properties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_node_properties.h; path = inc/azure_uamqp_c/amqp_definitions_node_properties.h; sourceTree = "<group>"; };
-		A20EFD359920E424666A9BE7BFAAB621 /* iothub_module_client_ll.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = iothub_module_client_ll.c; path = iothub_client/src/iothub_module_client_ll.c; sourceTree = "<group>"; };
+		A20EFD359920E424666A9BE7BFAAB621 /* iothub_module_client_ll.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothub_module_client_ll.c; path = iothub_client/src/iothub_module_client_ll.c; sourceTree = "<group>"; };
 		A27F3AFA52AF65359A28B1734378CAFD /* utf8_checker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = utf8_checker.h; path = inc/azure_c_shared_utility/utf8_checker.h; sourceTree = "<group>"; };
 		A2E458CEB77778BF9D371344A52A5B67 /* iothubtransport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothubtransport.h; path = inc/internal/iothubtransport.h; sourceTree = "<group>"; };
 		A34CD2778498606771FEE701B36250EA /* optimize_size.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = optimize_size.h; path = inc/azure_c_shared_utility/optimize_size.h; sourceTree = "<group>"; };
 		A395502BE268C09103DEC10A359A9FC7 /* async_operation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = async_operation.h; path = inc/azure_uamqp_c/async_operation.h; sourceTree = "<group>"; };
 		A3B632C121B4E1145C39A9718D24CD22 /* urlencode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = urlencode.h; path = inc/azure_c_shared_utility/urlencode.h; sourceTree = "<group>"; };
 		A3CB5D6036EEBCC504FFDD0E0ACCA4FA /* AzureIoTUtility.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AzureIoTUtility.modulemap; sourceTree = "<group>"; };
-		A3E857B1F7433C42D7CE358D21DD59DA /* connection_string_parser.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = connection_string_parser.c; path = src/connection_string_parser.c; sourceTree = "<group>"; };
+		A3E857B1F7433C42D7CE358D21DD59DA /* connection_string_parser.c */ = {isa = PBXFileReference; includeInIndex = 1; name = connection_string_parser.c; path = src/connection_string_parser.c; sourceTree = "<group>"; };
 		A48217D86EE4E34DF48F0CA95354DFAF /* iotdevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iotdevice.h; path = inc/iotdevice.h; sourceTree = "<group>"; };
-		A4994EB6E6F00B6C99F379A71AA33AD1 /* version.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = version.c; path = iothub_client/src/version.c; sourceTree = "<group>"; };
-		A4A4C8271F9F4013AA9F95E53102481F /* mqtt_message.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mqtt_message.c; path = src/mqtt_message.c; sourceTree = "<group>"; };
-		A5C952F25CD8219841FCE1690A8BFD92 /* iothub.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = iothub.c; path = iothub_client/src/iothub.c; sourceTree = "<group>"; };
+		A4994EB6E6F00B6C99F379A71AA33AD1 /* version.c */ = {isa = PBXFileReference; includeInIndex = 1; name = version.c; path = iothub_client/src/version.c; sourceTree = "<group>"; };
+		A4A4C8271F9F4013AA9F95E53102481F /* mqtt_message.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mqtt_message.c; path = src/mqtt_message.c; sourceTree = "<group>"; };
+		A5C952F25CD8219841FCE1690A8BFD92 /* iothub.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothub.c; path = iothub_client/src/iothub.c; sourceTree = "<group>"; };
 		A5D8D018E1D60BFA9FF5DC129925F76F /* AzureMacroUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AzureMacroUtils.debug.xcconfig; sourceTree = "<group>"; };
 		A753A52BBEA7B02CE0C5C973CDF87DC4 /* iothubtransport_mqtt_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothubtransport_mqtt_common.h; path = inc/internal/iothubtransport_mqtt_common.h; sourceTree = "<group>"; };
 		A77D6C9DE663542C60C3F61C6B5A879A /* gballoc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gballoc.h; path = inc/azure_c_shared_utility/gballoc.h; sourceTree = "<group>"; };
-		A81D419639B7AE919FF31FB3D5FB7240 /* parson.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = parson.c; path = deps/parson/parson.c; sourceTree = "<group>"; };
+		A81D419639B7AE919FF31FB3D5FB7240 /* parson.c */ = {isa = PBXFileReference; includeInIndex = 1; name = parson.c; path = deps/parson/parson.c; sourceTree = "<group>"; };
 		A8E72BC18B4A405F6EAA8952B30EF798 /* sasl_server_io.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sasl_server_io.h; path = inc/azure_uamqp_c/sasl_server_io.h; sourceTree = "<group>"; };
 		A9421EFF40A6337742AAB3BBF080840E /* gb_rand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gb_rand.h; path = inc/azure_c_shared_utility/gb_rand.h; sourceTree = "<group>"; };
-		AC24E7B3D374A1FAB50C1D8CCDB3F289 /* amqp_definitions.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = amqp_definitions.c; path = src/amqp_definitions.c; sourceTree = "<group>"; };
+		AC24E7B3D374A1FAB50C1D8CCDB3F289 /* amqp_definitions.c */ = {isa = PBXFileReference; includeInIndex = 1; name = amqp_definitions.c; path = src/amqp_definitions.c; sourceTree = "<group>"; };
 		AC3F7D3030CA3F61BBAA7B7018071DAE /* amqp_definitions_target.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_target.h; path = inc/azure_uamqp_c/amqp_definitions_target.h; sourceTree = "<group>"; };
 		AC44FB07489E63410FD139D87673D8F2 /* tcpsocketconnection_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tcpsocketconnection_c.h; path = inc/azure_c_shared_utility/tcpsocketconnection_c.h; sourceTree = "<group>"; };
 		AD4390E8319B58A7F96E11DCDCF70A8A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		B0DE48D5038F8CE252DCBD61A08FAC79 /* iothubtransport_amqp_connection.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = iothubtransport_amqp_connection.c; path = iothub_client/src/iothubtransport_amqp_connection.c; sourceTree = "<group>"; };
-		B0F7DA031E82374686AF5C7E36D4E2C2 /* message_receiver.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = message_receiver.c; path = src/message_receiver.c; sourceTree = "<group>"; };
-		B1129593654420D40320D7F4725EC279 /* gb_rand.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = gb_rand.c; path = src/gb_rand.c; sourceTree = "<group>"; };
+		B0DE48D5038F8CE252DCBD61A08FAC79 /* iothubtransport_amqp_connection.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothubtransport_amqp_connection.c; path = iothub_client/src/iothubtransport_amqp_connection.c; sourceTree = "<group>"; };
+		B0F7DA031E82374686AF5C7E36D4E2C2 /* message_receiver.c */ = {isa = PBXFileReference; includeInIndex = 1; name = message_receiver.c; path = src/message_receiver.c; sourceTree = "<group>"; };
+		B1129593654420D40320D7F4725EC279 /* gb_rand.c */ = {isa = PBXFileReference; includeInIndex = 1; name = gb_rand.c; path = src/gb_rand.c; sourceTree = "<group>"; };
 		B1338D4B6CAFC9FFAE30BF5B90FEA850 /* amqp_definitions_source.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_source.h; path = inc/azure_uamqp_c/amqp_definitions_source.h; sourceTree = "<group>"; };
-		B13D1399406309C42D6C95862708833B /* Pods-Sandbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sandbox-umbrella.h"; sourceTree = "<group>"; };
 		B1BFCDA77B3FB748B2114C63333D08F4 /* AzureIoTuAmqp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AzureIoTuAmqp.release.xcconfig; sourceTree = "<group>"; };
 		B1F8BE3D715694B99BA36C8F48A70554 /* AzureIoTuMqtt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AzureIoTuMqtt.debug.xcconfig; sourceTree = "<group>"; };
-		B30EC1C72B4E545F5BAF315C8E18153D /* AzureIoTHubClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AzureIoTHubClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30EC1C72B4E545F5BAF315C8E18153D /* AzureIoTHubClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AzureIoTHubClient.framework; path = AzureIoTHubClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B322F70DB0462600A550BA7F3F872A0A /* iothubtransportmqtt_websockets.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothubtransportmqtt_websockets.h; path = inc/iothubtransportmqtt_websockets.h; sourceTree = "<group>"; };
 		B439099931250C7CA64B0E658CE83FEB /* uamqp_messaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uamqp_messaging.h; path = inc/internal/uamqp_messaging.h; sourceTree = "<group>"; };
-		B49E4338A808296162179D079219FE8E /* Pods-Sandbox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sandbox-Info.plist"; sourceTree = "<group>"; };
 		B577B1E3C8BE956D3E61B4475276A8DE /* AzureIoTUtility.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AzureIoTUtility.release.xcconfig; sourceTree = "<group>"; };
 		B5BD18B60769DFBFBF3A2E4F9522DA7C /* jsonencoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jsonencoder.h; path = inc/jsonencoder.h; sourceTree = "<group>"; };
-		B6E6358391E53432A04E523BB77A70C2 /* sastoken.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sastoken.c; path = src/sastoken.c; sourceTree = "<group>"; };
+		B6E6358391E53432A04E523BB77A70C2 /* sastoken.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sastoken.c; path = src/sastoken.c; sourceTree = "<group>"; };
 		B7A5BD0B3A55EB0F647234A75987F8B1 /* threadapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = threadapi.h; path = inc/azure_c_shared_utility/threadapi.h; sourceTree = "<group>"; };
-		B7E2B717A5FAC02AF7A4F85A79C88F0B /* iothubtransportamqp_methods.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = iothubtransportamqp_methods.c; path = iothub_client/src/iothubtransportamqp_methods.c; sourceTree = "<group>"; };
-		B7E7A852794B99538EC51D531C8AFB62 /* iothub_device_client.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = iothub_device_client.c; path = iothub_client/src/iothub_device_client.c; sourceTree = "<group>"; };
+		B7E2B717A5FAC02AF7A4F85A79C88F0B /* iothubtransportamqp_methods.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothubtransportamqp_methods.c; path = iothub_client/src/iothubtransportamqp_methods.c; sourceTree = "<group>"; };
+		B7E7A852794B99538EC51D531C8AFB62 /* iothub_device_client.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothub_device_client.c; path = iothub_client/src/iothub_device_client.c; sourceTree = "<group>"; };
 		B8644899B86DE7C645B6B29A1DFAF2F9 /* session.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = session.h; path = inc/azure_uamqp_c/session.h; sourceTree = "<group>"; };
 		B8725F81D4FC85D832F5A617B2D76DB0 /* amqp_definitions_accepted.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_accepted.h; path = inc/azure_uamqp_c/amqp_definitions_accepted.h; sourceTree = "<group>"; };
-		B9DE33AEF0BD4666C9726AD64827AED0 /* uws_client.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = uws_client.c; path = src/uws_client.c; sourceTree = "<group>"; };
+		B9DE33AEF0BD4666C9726AD64827AED0 /* uws_client.c */ = {isa = PBXFileReference; includeInIndex = 1; name = uws_client.c; path = src/uws_client.c; sourceTree = "<group>"; };
 		B9E7A044A6E2C590C99B6A4655DFC632 /* tlsio_options.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tlsio_options.h; path = inc/azure_c_shared_utility/tlsio_options.h; sourceTree = "<group>"; };
 		BAB26F98C8EB875E792BE36455890DDA /* amqp_definitions_sasl_init.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_sasl_init.h; path = inc/azure_uamqp_c/amqp_definitions_sasl_init.h; sourceTree = "<group>"; };
-		BBD91F0D5E4F4B83E63A1251B21CF332 /* hmac.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = hmac.c; path = src/hmac.c; sourceTree = "<group>"; };
-		BC6C84C0BFED8E81D9761201406C2151 /* vector.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = vector.c; path = src/vector.c; sourceTree = "<group>"; };
-		BCBDEC69792332AF44C65FBE1B960239 /* dataserializer.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = dataserializer.c; path = serializer/src/dataserializer.c; sourceTree = "<group>"; };
+		BBD91F0D5E4F4B83E63A1251B21CF332 /* hmac.c */ = {isa = PBXFileReference; includeInIndex = 1; name = hmac.c; path = src/hmac.c; sourceTree = "<group>"; };
+		BC6C84C0BFED8E81D9761201406C2151 /* vector.c */ = {isa = PBXFileReference; includeInIndex = 1; name = vector.c; path = src/vector.c; sourceTree = "<group>"; };
+		BC8A366045EC2DA21437D50754CCD94A /* Pods-cSDKonIOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cSDKonIOS-frameworks.sh"; sourceTree = "<group>"; };
+		BCBDEC69792332AF44C65FBE1B960239 /* dataserializer.c */ = {isa = PBXFileReference; includeInIndex = 1; name = dataserializer.c; path = serializer/src/dataserializer.c; sourceTree = "<group>"; };
 		BCE30E82F4D0B66577415FE96314BC9B /* amqp_definitions_role.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_role.h; path = inc/azure_uamqp_c/amqp_definitions_role.h; sourceTree = "<group>"; };
 		BD180E19422A4D78D3B2B0BC0B0076CE /* amqp_definitions_transfer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_transfer.h; path = inc/azure_uamqp_c/amqp_definitions_transfer.h; sourceTree = "<group>"; };
-		BD5580F127BD566AC52DADB02D8B966D /* iothub_client_ll.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = iothub_client_ll.c; path = iothub_client/src/iothub_client_ll.c; sourceTree = "<group>"; };
+		BD5580F127BD566AC52DADB02D8B966D /* iothub_client_ll.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothub_client_ll.c; path = iothub_client/src/iothub_client_ll.c; sourceTree = "<group>"; };
 		BDF12CA887ACECF1EC46188357319A5C /* uws_frame_encoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uws_frame_encoder.h; path = inc/azure_c_shared_utility/uws_frame_encoder.h; sourceTree = "<group>"; };
 		BE2C77F7B68F02A437D73F1016C85D28 /* AzureIoTUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AzureIoTUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF68E6ECAB5041988B5814694AD55031 /* AzureIoTUtility-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AzureIoTUtility-Info.plist"; sourceTree = "<group>"; };
 		BFA3AC64A1A6F556F8914446F12331C3 /* iothub_client_ll_uploadtoblob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothub_client_ll_uploadtoblob.h; path = inc/internal/iothub_client_ll_uploadtoblob.h; sourceTree = "<group>"; };
 		C0C52CC7A8515ADDF275355CFAA4BEFB /* messaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = messaging.h; path = inc/azure_uamqp_c/messaging.h; sourceTree = "<group>"; };
-		C11ADB17C5E2ADE489C368F80AD0ACEC /* iothub_client_core_ll.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = iothub_client_core_ll.c; path = iothub_client/src/iothub_client_core_ll.c; sourceTree = "<group>"; };
+		C11ADB17C5E2ADE489C368F80AD0ACEC /* iothub_client_core_ll.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothub_client_core_ll.c; path = iothub_client/src/iothub_client_core_ll.c; sourceTree = "<group>"; };
 		C17FA983DA2880ED4130ECC2CBFC0010 /* AzureIoTHubClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AzureIoTHubClient-dummy.m"; sourceTree = "<group>"; };
+		C19141EB92FD50E14C9EAE0E3D387D94 /* Pods-cSDKonIOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-cSDKonIOS-umbrella.h"; sourceTree = "<group>"; };
 		C3D27CDF82088ED0AB53DB0E06D0BB07 /* iothub_message.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothub_message.h; path = inc/iothub_message.h; sourceTree = "<group>"; };
 		C4756D9A5C7C6E2CFAE95BEA360ED3AC /* httpheaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = httpheaders.h; path = inc/azure_c_shared_utility/httpheaders.h; sourceTree = "<group>"; };
 		C4F1B2D6F7768B36A0BDEE776C856883 /* schemaserializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = schemaserializer.h; path = inc/schemaserializer.h; sourceTree = "<group>"; };
-		C51DDECB449DD5E6A0E00AB66C2D70ED /* dns_resolver_sync.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = dns_resolver_sync.c; path = src/dns_resolver_sync.c; sourceTree = "<group>"; };
-		C5EE78F186BF3FC8212AB186D4B13CEA /* Pods-Sandbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Sandbox.modulemap"; sourceTree = "<group>"; };
-		C62A377B504907F0D5B1D8F907E5B348 /* sasl_anonymous.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sasl_anonymous.c; path = src/sasl_anonymous.c; sourceTree = "<group>"; };
+		C51DDECB449DD5E6A0E00AB66C2D70ED /* dns_resolver_sync.c */ = {isa = PBXFileReference; includeInIndex = 1; name = dns_resolver_sync.c; path = src/dns_resolver_sync.c; sourceTree = "<group>"; };
+		C62A377B504907F0D5B1D8F907E5B348 /* sasl_anonymous.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sasl_anonymous.c; path = src/sasl_anonymous.c; sourceTree = "<group>"; };
 		C62EC5BAFC6DD950E032099FD0EBD779 /* amqp_definitions_delivery_number.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_delivery_number.h; path = inc/azure_uamqp_c/amqp_definitions_delivery_number.h; sourceTree = "<group>"; };
 		C6DA8EB9F27CE486E591E5AAC53B4C42 /* refcount_os.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = refcount_os.h; path = inc/azure_c_shared_utility/refcount_os.h; sourceTree = "<group>"; };
 		C822490270722BA4C5DF63E0A29FEBE1 /* iothubtransportamqp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothubtransportamqp.h; path = inc/iothubtransportamqp.h; sourceTree = "<group>"; };
 		C936E5B60D104F112A853EDDCEC569D0 /* iothub_client.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothub_client.h; path = inc/iothub_client.h; sourceTree = "<group>"; };
-		C958A03F66ACE86F7BD1CD9956F58644 /* sasl_mechanism.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sasl_mechanism.c; path = src/sasl_mechanism.c; sourceTree = "<group>"; };
-		CA35E1688B4C42FE21411442812C28FF /* jsondecoder.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = jsondecoder.c; path = serializer/src/jsondecoder.c; sourceTree = "<group>"; };
+		C958A03F66ACE86F7BD1CD9956F58644 /* sasl_mechanism.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sasl_mechanism.c; path = src/sasl_mechanism.c; sourceTree = "<group>"; };
+		CA35E1688B4C42FE21411442812C28FF /* jsondecoder.c */ = {isa = PBXFileReference; includeInIndex = 1; name = jsondecoder.c; path = serializer/src/jsondecoder.c; sourceTree = "<group>"; };
 		CB323944732A6A25B87FB888D3B06205 /* saslclientio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = saslclientio.h; path = inc/azure_uamqp_c/saslclientio.h; sourceTree = "<group>"; };
-		CB50CF9C716D4D3EBC7E8775435F4AE6 /* urlencode.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = urlencode.c; path = src/urlencode.c; sourceTree = "<group>"; };
+		CB50CF9C716D4D3EBC7E8775435F4AE6 /* urlencode.c */ = {isa = PBXFileReference; includeInIndex = 1; name = urlencode.c; path = src/urlencode.c; sourceTree = "<group>"; };
 		CB54F9FE2DC8D7090055582AB710E322 /* mqtt_codec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mqtt_codec.h; path = inc/azure_umqtt_c/mqtt_codec.h; sourceTree = "<group>"; };
 		CBADB75B81ED5935F63A3F4E6AB966AD /* iothubtransportamqp_websockets.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothubtransportamqp_websockets.h; path = inc/iothubtransportamqp_websockets.h; sourceTree = "<group>"; };
 		CC6F50A769FB58A32A7FD89331935E0C /* iothub_client_authorization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothub_client_authorization.h; path = inc/internal/iothub_client_authorization.h; sourceTree = "<group>"; };
 		CCE8960CF1DD2DFDA798BE28EB01A022 /* amqp_definitions_sasl_outcome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_sasl_outcome.h; path = inc/azure_uamqp_c/amqp_definitions_sasl_outcome.h; sourceTree = "<group>"; };
-		CDA14149D63D882F16D1D718A277E912 /* tickcounter_linux.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = tickcounter_linux.c; path = adapters/tickcounter_linux.c; sourceTree = "<group>"; };
-		CEC68BCD05B27F2E4C04DE7D6BE2846B /* uws_frame_encoder.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = uws_frame_encoder.c; path = src/uws_frame_encoder.c; sourceTree = "<group>"; };
+		CDA14149D63D882F16D1D718A277E912 /* tickcounter_linux.c */ = {isa = PBXFileReference; includeInIndex = 1; name = tickcounter_linux.c; path = adapters/tickcounter_linux.c; sourceTree = "<group>"; };
+		CEC68BCD05B27F2E4C04DE7D6BE2846B /* uws_frame_encoder.c */ = {isa = PBXFileReference; includeInIndex = 1; name = uws_frame_encoder.c; path = src/uws_frame_encoder.c; sourceTree = "<group>"; };
 		CF284A3641931FDD200948E7A2E82F94 /* link.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = link.h; path = inc/azure_uamqp_c/link.h; sourceTree = "<group>"; };
 		CF33D5454D271C6C38B887046DE6C400 /* sastoken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sastoken.h; path = inc/azure_c_shared_utility/sastoken.h; sourceTree = "<group>"; };
-		D0639CB3E40DB021CC8BE612B0FC209A /* Pods-Sandbox-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sandbox-frameworks.sh"; sourceTree = "<group>"; };
 		D10B9D94C80BB02DF26CFA6F53C76968 /* amqp_definitions_modified.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_modified.h; path = inc/azure_uamqp_c/amqp_definitions_modified.h; sourceTree = "<group>"; };
 		D1C92E7FC19480458A52F67AD0B6B07E /* amqp_definitions_amqp_error.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_amqp_error.h; path = inc/azure_uamqp_c/amqp_definitions_amqp_error.h; sourceTree = "<group>"; };
-		D37E8850583723078FF847C082050FAB /* sasl_frame_codec.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sasl_frame_codec.c; path = src/sasl_frame_codec.c; sourceTree = "<group>"; };
-		D3C35464BB017C663D7ADF02C969394D /* blob.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = blob.c; path = iothub_client/src/blob.c; sourceTree = "<group>"; };
+		D37E8850583723078FF847C082050FAB /* sasl_frame_codec.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sasl_frame_codec.c; path = src/sasl_frame_codec.c; sourceTree = "<group>"; };
+		D3C35464BB017C663D7ADF02C969394D /* blob.c */ = {isa = PBXFileReference; includeInIndex = 1; name = blob.c; path = iothub_client/src/blob.c; sourceTree = "<group>"; };
 		D428DE07DC910FD63A7C8172FB543725 /* AzureIoTuAmqp-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AzureIoTuAmqp-prefix.pch"; sourceTree = "<group>"; };
 		D46EB64378310741C5A3F80403E268F8 /* message_queue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = message_queue.h; path = inc/internal/message_queue.h; sourceTree = "<group>"; };
 		D54A36D172C4DA46AD54D309A149D101 /* AzureMacroUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AzureMacroUtils.release.xcconfig; sourceTree = "<group>"; };
 		D5AC8D18A43655BF79CB6B8B8E1FE1DD /* OpenSSL-Universal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OpenSSL-Universal.release.xcconfig"; sourceTree = "<group>"; };
 		D5FAE787D5C8BCB244685FAC4D2A4B6A /* socket_async_os.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = socket_async_os.h; path = inc/socket_async_os.h; sourceTree = "<group>"; };
-		D60D3F340978AB28A58FCEC9D6D33BE6 /* azure_base32.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = azure_base32.c; path = src/azure_base32.c; sourceTree = "<group>"; };
-		D659979B7A093509D242235A364AA792 /* iothubtransport_amqp_common.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = iothubtransport_amqp_common.c; path = iothub_client/src/iothubtransport_amqp_common.c; sourceTree = "<group>"; };
+		D60D3F340978AB28A58FCEC9D6D33BE6 /* azure_base32.c */ = {isa = PBXFileReference; includeInIndex = 1; name = azure_base32.c; path = src/azure_base32.c; sourceTree = "<group>"; };
+		D659979B7A093509D242235A364AA792 /* iothubtransport_amqp_common.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothubtransport_amqp_common.c; path = iothub_client/src/iothubtransport_amqp_common.c; sourceTree = "<group>"; };
 		D68394227B203A5BF5E503A30C0C8F7E /* gb_time.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gb_time.h; path = inc/azure_c_shared_utility/gb_time.h; sourceTree = "<group>"; };
 		D78063D10BF96546B7FE56E8ED577A9F /* amqp_definitions_filter_set.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_filter_set.h; path = inc/azure_uamqp_c/amqp_definitions_filter_set.h; sourceTree = "<group>"; };
-		DA1A04B9F25536FD8EE648EC76FEBC16 /* codefirst.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = codefirst.c; path = serializer/src/codefirst.c; sourceTree = "<group>"; };
+		DA1A04B9F25536FD8EE648EC76FEBC16 /* codefirst.c */ = {isa = PBXFileReference; includeInIndex = 1; name = codefirst.c; path = serializer/src/codefirst.c; sourceTree = "<group>"; };
 		DAF555F247CDBBDF23984B1456509169 /* iothubtransport_amqp_cbs_auth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothubtransport_amqp_cbs_auth.h; path = inc/internal/iothubtransport_amqp_cbs_auth.h; sourceTree = "<group>"; };
 		DBACCFE7B47CB999E3CCAB16490B0CF0 /* iothub_client_core.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothub_client_core.h; path = inc/iothub_client_core.h; sourceTree = "<group>"; };
-		DC48823EEAC6755DC2ED6200D5ECE0EC /* sasl_mssbcbs.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sasl_mssbcbs.c; path = src/sasl_mssbcbs.c; sourceTree = "<group>"; };
+		DC48823EEAC6755DC2ED6200D5ECE0EC /* sasl_mssbcbs.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sasl_mssbcbs.c; path = src/sasl_mssbcbs.c; sourceTree = "<group>"; };
 		DC6AFF178D083696941ABD43149E09C2 /* blob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blob.h; path = inc/internal/blob.h; sourceTree = "<group>"; };
 		DD011B78DD3D8077CF31478DEB8F10B9 /* azure_base32.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = azure_base32.h; path = inc/azure_c_shared_utility/azure_base32.h; sourceTree = "<group>"; };
-		DD5AC564F50A90B4BB8C494E0095085A /* iothub_client_edge.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = iothub_client_edge.c; path = iothub_client/src/iothub_client_edge.c; sourceTree = "<group>"; };
+		DD5AC564F50A90B4BB8C494E0095085A /* iothub_client_edge.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothub_client_edge.c; path = iothub_client/src/iothub_client_edge.c; sourceTree = "<group>"; };
 		DD6C30C9A571B8DC8A5B56D1F2174C51 /* serializer_devicetwin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = serializer_devicetwin.h; path = inc/serializer_devicetwin.h; sourceTree = "<group>"; };
-		DF72FCB9046DA75B164B325720F6156E /* AzureIoTUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AzureIoTUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF72FCB9046DA75B164B325720F6156E /* AzureIoTUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AzureIoTUtility.framework; path = AzureIoTUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFAB83FF0C7541712BE75A40125DD984 /* amqp_definitions_sasl_mechanisms.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_sasl_mechanisms.h; path = inc/azure_uamqp_c/amqp_definitions_sasl_mechanisms.h; sourceTree = "<group>"; };
-		DFC5CBABD4CC3C192E352EBF29B7268D /* ws_url.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ws_url.c; path = src/ws_url.c; sourceTree = "<group>"; };
+		DFC5CBABD4CC3C192E352EBF29B7268D /* ws_url.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ws_url.c; path = src/ws_url.c; sourceTree = "<group>"; };
 		DFC78077197B7C16AD07E43BBA279473 /* uuid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uuid.h; path = inc/azure_c_shared_utility/uuid.h; sourceTree = "<group>"; };
 		E0BB20A71FC1099734B1901C0B7EABCF /* amqp_definitions_rejected.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_rejected.h; path = inc/azure_uamqp_c/amqp_definitions_rejected.h; sourceTree = "<group>"; };
-		E10B88542F4EA75F40DAD52A40E8935C /* datapublisher.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = datapublisher.c; path = serializer/src/datapublisher.c; sourceTree = "<group>"; };
+		E10B88542F4EA75F40DAD52A40E8935C /* datapublisher.c */ = {isa = PBXFileReference; includeInIndex = 1; name = datapublisher.c; path = serializer/src/datapublisher.c; sourceTree = "<group>"; };
 		E2BC0712487E00DC9D778F1FD8D04D42 /* dns_resolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dns_resolver.h; path = inc/azure_c_shared_utility/dns_resolver.h; sourceTree = "<group>"; };
 		E2BC45F61F73CC61F8E66EE7EE3944A3 /* amqp_definitions_attach.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_attach.h; path = inc/azure_uamqp_c/amqp_definitions_attach.h; sourceTree = "<group>"; };
-		E32DC682D9B7BC6ACF5A58AB7688A82F /* Pods-Sandbox-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sandbox-acknowledgements.plist"; sourceTree = "<group>"; };
 		E3D1D2B64D62BFC1865256AD593586FB /* amqp_definitions_sasl_code.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_sasl_code.h; path = inc/azure_uamqp_c/amqp_definitions_sasl_code.h; sourceTree = "<group>"; };
 		E3D5A2CA43CD245A847A47840E86EAB1 /* macro_utils_generated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = macro_utils_generated.h; path = inc/azure_macro_utils/macro_utils_generated.h; sourceTree = "<group>"; };
 		E47B375364A1A696806015574226D7BD /* AzureIoTUtility-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AzureIoTUtility-dummy.m"; sourceTree = "<group>"; };
-		E4CCD782B1F1CB98883F2A928D0FAD60 /* socket_listener_berkeley.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = socket_listener_berkeley.c; path = src/socket_listener_berkeley.c; sourceTree = "<group>"; };
+		E4CCD782B1F1CB98883F2A928D0FAD60 /* socket_listener_berkeley.c */ = {isa = PBXFileReference; includeInIndex = 1; name = socket_listener_berkeley.c; path = src/socket_listener_berkeley.c; sourceTree = "<group>"; };
 		E536D2C7676E04D12E15DA4239048800 /* condition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = condition.h; path = inc/azure_c_shared_utility/condition.h; sourceTree = "<group>"; };
 		E5497A6AA5D1C83E9B4B4B75E2545EC9 /* iothubtransport_amqp_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothubtransport_amqp_common.h; path = inc/internal/iothubtransport_amqp_common.h; sourceTree = "<group>"; };
 		E5D5536D2D6B8161451D13555394F50F /* amqp_definitions_end.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_end.h; path = inc/azure_uamqp_c/amqp_definitions_end.h; sourceTree = "<group>"; };
 		E645678B288F2861CDEC42BE29B9275F /* crt_abstractions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crt_abstractions.h; path = inc/azure_c_shared_utility/crt_abstractions.h; sourceTree = "<group>"; };
 		E6E5777775758B3C923ED6E8CCF0556D /* parson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = parson.h; path = inc/parson.h; sourceTree = "<group>"; };
 		E7088D663F4E2BDFC05447CDC7161B5D /* schemalib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = schemalib.h; path = inc/schemalib.h; sourceTree = "<group>"; };
+		E87176315135C7F4CF90FCE051EF5E42 /* Pods-cSDKonIOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cSDKonIOS-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E8ED135D292B7C01AA0C2E1129C4EF04 /* memory_data.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = memory_data.h; path = inc/azure_c_shared_utility/memory_data.h; sourceTree = "<group>"; };
 		E8FA44C73B326A936CFDC33F18CBF7D2 /* vector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vector.h; path = inc/azure_c_shared_utility/vector.h; sourceTree = "<group>"; };
 		E9E6E1A74947833D459D654304EFDCCD /* iothub_device_client_ll.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothub_device_client_ll.h; path = inc/iothub_device_client_ll.h; sourceTree = "<group>"; };
 		EA4D91D2E9C35FCCC90084C1278115C6 /* iothub_client_diagnostic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothub_client_diagnostic.h; path = inc/internal/iothub_client_diagnostic.h; sourceTree = "<group>"; };
 		EA7221F16ED21BDEBA6AB5A664A8FC11 /* string_token.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = string_token.h; path = inc/azure_c_shared_utility/string_token.h; sourceTree = "<group>"; };
 		EB0CDD4B57D7BF9D630B88F1A25CDDA4 /* amqp_definitions_seconds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_seconds.h; path = inc/azure_uamqp_c/amqp_definitions_seconds.h; sourceTree = "<group>"; };
-		EB328A49D8798F6782EFAA8580BC891E /* iothub_client_core.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = iothub_client_core.c; path = iothub_client/src/iothub_client_core.c; sourceTree = "<group>"; };
-		EBD8912571711440FA608A85C5FFF81D /* amqpvalue_to_string.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = amqpvalue_to_string.c; path = src/amqpvalue_to_string.c; sourceTree = "<group>"; };
+		EB328A49D8798F6782EFAA8580BC891E /* iothub_client_core.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothub_client_core.c; path = iothub_client/src/iothub_client_core.c; sourceTree = "<group>"; };
+		EBD8912571711440FA608A85C5FFF81D /* amqpvalue_to_string.c */ = {isa = PBXFileReference; includeInIndex = 1; name = amqpvalue_to_string.c; path = src/amqpvalue_to_string.c; sourceTree = "<group>"; };
 		EBDC8487091E616815DE2714C199618F /* amqp_definitions_begin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_begin.h; path = inc/azure_uamqp_c/amqp_definitions_begin.h; sourceTree = "<group>"; };
-		EC4C9D21DA17F79C8D08FAB9C25A4020 /* schemaserializer.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = schemaserializer.c; path = serializer/src/schemaserializer.c; sourceTree = "<group>"; };
+		EC4C9D21DA17F79C8D08FAB9C25A4020 /* schemaserializer.c */ = {isa = PBXFileReference; includeInIndex = 1; name = schemaserializer.c; path = serializer/src/schemaserializer.c; sourceTree = "<group>"; };
 		ED3CF29008BFE519D7FF9ABE36CBDF5F /* commanddecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = commanddecoder.h; path = inc/commanddecoder.h; sourceTree = "<group>"; };
-		ED9B73C7D465D26CF4667DF9ECA4DB1F /* saslclientio.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = saslclientio.c; path = src/saslclientio.c; sourceTree = "<group>"; };
+		ED9B73C7D465D26CF4667DF9ECA4DB1F /* saslclientio.c */ = {isa = PBXFileReference; includeInIndex = 1; name = saslclientio.c; path = src/saslclientio.c; sourceTree = "<group>"; };
 		EF2EDB264E5DF44074E4FBAF6F1FD913 /* iothub_client_version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothub_client_version.h; path = inc/iothub_client_version.h; sourceTree = "<group>"; };
 		F037BCC6B0BDB56CC9CB3DA89F70F897 /* iothub.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothub.h; path = inc/iothub.h; sourceTree = "<group>"; };
-		F09181C503DD7A6EA1BE515EE153CC9A /* iothubtransportamqp.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = iothubtransportamqp.c; path = iothub_client/src/iothubtransportamqp.c; sourceTree = "<group>"; };
+		F09181C503DD7A6EA1BE515EE153CC9A /* iothubtransportamqp.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothubtransportamqp.c; path = iothub_client/src/iothubtransportamqp.c; sourceTree = "<group>"; };
 		F2CA4A2E94ABB95C465D48006A409C1D /* iothub_transport_ll.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothub_transport_ll.h; path = inc/iothub_transport_ll.h; sourceTree = "<group>"; };
 		F2D00C7306D052081E5517A39A22BB78 /* lock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lock.h; path = inc/azure_c_shared_utility/lock.h; sourceTree = "<group>"; };
-		F315EDCD8B25F571E0A04D6E98C09361 /* multitree.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = multitree.c; path = serializer/src/multitree.c; sourceTree = "<group>"; };
-		F3745DFD6AD6D59F624ED61D1FE8F548 /* AzureIoTuAmqp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AzureIoTuAmqp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F315EDCD8B25F571E0A04D6E98C09361 /* multitree.c */ = {isa = PBXFileReference; includeInIndex = 1; name = multitree.c; path = serializer/src/multitree.c; sourceTree = "<group>"; };
+		F3745DFD6AD6D59F624ED61D1FE8F548 /* AzureIoTuAmqp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AzureIoTuAmqp.framework; path = AzureIoTuAmqp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F47782DE140A2F12A5679D042A7D1E1A /* iothub_module_client_ll.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothub_module_client_ll.h; path = inc/iothub_module_client_ll.h; sourceTree = "<group>"; };
 		F4FC239E78AF62CB4D5A5528EC897CD4 /* amqp_management.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_management.h; path = inc/azure_uamqp_c/amqp_management.h; sourceTree = "<group>"; };
 		F71B1E23C4729CBA9D4B0D68A8DAEDCC /* codefirst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = codefirst.h; path = inc/codefirst.h; sourceTree = "<group>"; };
 		F75607765A80A2F7FD1861D0721C1491 /* srw_lock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = srw_lock.h; path = inc/azure_c_shared_utility/srw_lock.h; sourceTree = "<group>"; };
 		F77281A281A3C772471E8E2C5469B0BC /* http_proxy_io.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = http_proxy_io.h; path = inc/azure_c_shared_utility/http_proxy_io.h; sourceTree = "<group>"; };
-		F84ADD1AFE8315E932151FF37F087AA6 /* iothubtransport.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = iothubtransport.c; path = iothub_client/src/iothubtransport.c; sourceTree = "<group>"; };
+		F84ADD1AFE8315E932151FF37F087AA6 /* iothubtransport.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothubtransport.c; path = iothub_client/src/iothubtransport.c; sourceTree = "<group>"; };
 		F8885D5F0CFEEF8E9144B50B7DA56246 /* amqpvalue_to_string.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqpvalue_to_string.h; path = inc/azure_uamqp_c/amqpvalue_to_string.h; sourceTree = "<group>"; };
-		FA7FF9B7DCCC7FDEE47288C3624A080C /* connection.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = connection.c; path = src/connection.c; sourceTree = "<group>"; };
+		FA7FF9B7DCCC7FDEE47288C3624A080C /* connection.c */ = {isa = PBXFileReference; includeInIndex = 1; name = connection.c; path = src/connection.c; sourceTree = "<group>"; };
 		FD5E4A10BD39EE917DFEE80A15AC0A50 /* vector_types_internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vector_types_internal.h; path = inc/azure_c_shared_utility/vector_types_internal.h; sourceTree = "<group>"; };
-		FF58A90290BC898DDA973C2C45D0EC4D /* gb_stdio.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = gb_stdio.c; path = src/gb_stdio.c; sourceTree = "<group>"; };
+		FEA5470C967059E036D6BE22866E34C1 /* Pods-cSDKonIOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cSDKonIOS-dummy.m"; sourceTree = "<group>"; };
+		FF58A90290BC898DDA973C2C45D0EC4D /* gb_stdio.c */ = {isa = PBXFileReference; includeInIndex = 1; name = gb_stdio.c; path = src/gb_stdio.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1418,14 +1415,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5495469F5A9547E91C76ADCAAFBB86DF /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		052C6EB592F65EC82061D47ACFDFB09F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8A5989DEE7A4D6BD99B911D2C57819C1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1458,6 +1447,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DDECCCCD1C627BB69E1BE19819CDF9A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36A397B956B15A8A92187E022C0B10A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -1475,14 +1472,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		12BD2F867847A86CFCB91BC21509836D /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FC345D0591B7ED1968A1E4E81F46EAFA /* Pods-Sandbox */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		1A9F915BD485D1731CCABA53FF32BADF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1494,16 +1483,21 @@
 			path = "../Target Support Files/OpenSSL-Universal";
 			sourceTree = "<group>";
 		};
-		1D0F3A8EC921DEDFC0885E137D556F44 /* Products */ = {
+		3464597678AC27DEBAF6C5177BAD685C /* Pods-cSDKonIOS */ = {
 			isa = PBXGroup;
 			children = (
-				B30EC1C72B4E545F5BAF315C8E18153D /* AzureIoTHubClient.framework */,
-				F3745DFD6AD6D59F624ED61D1FE8F548 /* AzureIoTuAmqp.framework */,
-				7A7B8C008D13821ED2625B12C4F78450 /* AzureIoTuMqtt.framework */,
-				DF72FCB9046DA75B164B325720F6156E /* AzureIoTUtility.framework */,
-				1758FA0725AA4B553C7CBC8E6EAE6EDB /* Pods_Sandbox.framework */,
+				03A5CA802DCD3981EE9B40ABCA0A8DE8 /* Pods-cSDKonIOS.modulemap */,
+				E87176315135C7F4CF90FCE051EF5E42 /* Pods-cSDKonIOS-acknowledgements.markdown */,
+				80499649D7C3F0141D227AFD274E41F7 /* Pods-cSDKonIOS-acknowledgements.plist */,
+				FEA5470C967059E036D6BE22866E34C1 /* Pods-cSDKonIOS-dummy.m */,
+				BC8A366045EC2DA21437D50754CCD94A /* Pods-cSDKonIOS-frameworks.sh */,
+				9B908BCB3C0BABE9C81E866CC5396895 /* Pods-cSDKonIOS-Info.plist */,
+				C19141EB92FD50E14C9EAE0E3D387D94 /* Pods-cSDKonIOS-umbrella.h */,
+				62504317EA7A54F30B039C3BED19D4FF /* Pods-cSDKonIOS.debug.xcconfig */,
+				60CA0B741E5C42C6715B1EC0C662E55D /* Pods-cSDKonIOS.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-cSDKonIOS";
+			path = "Target Support Files/Pods-cSDKonIOS";
 			sourceTree = "<group>";
 		};
 		3ACC19DC3C6998852BCF1C03085985B3 /* AzureIoTHubClient */ = {
@@ -1619,6 +1613,7 @@
 				A4994EB6E6F00B6C99F379A71AA33AD1 /* version.c */,
 				CACE3490153B2F92CC81807165905A31 /* Support Files */,
 			);
+			name = AzureIoTHubClient;
 			path = AzureIoTHubClient;
 			sourceTree = "<group>";
 		};
@@ -1764,6 +1759,7 @@
 				478D4F7871CC1EF94934BB5999311BC6 /* xlogging.h */,
 				6F83A0568F2EB08844C1F9798765F521 /* Support Files */,
 			);
+			name = AzureIoTUtility;
 			path = AzureIoTUtility;
 			sourceTree = "<group>";
 		};
@@ -1893,6 +1889,7 @@
 				705198B16248BCE126F77EA9EC1C81C4 /* uamqp.h */,
 				A4F6DC4D1C05863BB544B9C547B3BB7E /* Support Files */,
 			);
+			name = AzureIoTuAmqp;
 			path = AzureIoTuAmqp;
 			sourceTree = "<group>";
 		};
@@ -1930,6 +1927,7 @@
 				F9C05FB72F5A90F961DBA30556CC5F21 /* Frameworks */,
 				1A9F915BD485D1731CCABA53FF32BADF /* Support Files */,
 			);
+			name = "OpenSSL-Universal";
 			path = "OpenSSL-Universal";
 			sourceTree = "<group>";
 		};
@@ -1959,6 +1957,7 @@
 				808E2821684BDA129641E5588600AD35 /* mqttconst.h */,
 				A4E8A71FBA195C5809C1F7FBD376AD53 /* Support Files */,
 			);
+			name = AzureIoTuMqtt;
 			path = AzureIoTuMqtt;
 			sourceTree = "<group>";
 		};
@@ -1979,8 +1978,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				CE16787466F79522946AB4AF932C1AB9 /* Frameworks */,
 				075BFFFA616E88EBDEB18ACCFD4012DA /* Pods */,
-				1D0F3A8EC921DEDFC0885E137D556F44 /* Products */,
-				12BD2F867847A86CFCB91BC21509836D /* Targets Support Files */,
+				F7946C629EFAB7E1BACA1CE2F38AF72C /* Products */,
+				F758014E333A58BF735DA2BF5D9069E6 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -2009,6 +2008,7 @@
 				E3D5A2CA43CD245A847A47840E86EAB1 /* macro_utils_generated.h */,
 				8987C0032E9C7124E6B3CC3C172F7066 /* Support Files */,
 			);
+			name = AzureMacroUtils;
 			path = AzureMacroUtils;
 			sourceTree = "<group>";
 		};
@@ -2018,7 +2018,28 @@
 				3943C6FA99E5575360CE0A6B9E4520A2 /* umock_c_prod.h */,
 				D420B11C26CDAAD478171FAC2918160E /* Support Files */,
 			);
+			name = AzureuMockC;
 			path = AzureuMockC;
+			sourceTree = "<group>";
+		};
+		F758014E333A58BF735DA2BF5D9069E6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3464597678AC27DEBAF6C5177BAD685C /* Pods-cSDKonIOS */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F7946C629EFAB7E1BACA1CE2F38AF72C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B30EC1C72B4E545F5BAF315C8E18153D /* AzureIoTHubClient.framework */,
+				F3745DFD6AD6D59F624ED61D1FE8F548 /* AzureIoTuAmqp.framework */,
+				7A7B8C008D13821ED2625B12C4F78450 /* AzureIoTuMqtt.framework */,
+				DF72FCB9046DA75B164B325720F6156E /* AzureIoTUtility.framework */,
+				2BBDBC8EEF566BA4E29196B9E999C8E1 /* Pods_cSDKonIOS.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		F9C05FB72F5A90F961DBA30556CC5F21 /* Frameworks */ = {
@@ -2029,26 +2050,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FC345D0591B7ED1968A1E4E81F46EAFA /* Pods-Sandbox */ = {
-			isa = PBXGroup;
-			children = (
-				C5EE78F186BF3FC8212AB186D4B13CEA /* Pods-Sandbox.modulemap */,
-				9F035E15B6DA4F55F7DE624C501B1134 /* Pods-Sandbox-acknowledgements.markdown */,
-				E32DC682D9B7BC6ACF5A58AB7688A82F /* Pods-Sandbox-acknowledgements.plist */,
-				9C133CCC545B0372C5461CEAFC077DAE /* Pods-Sandbox-dummy.m */,
-				D0639CB3E40DB021CC8BE612B0FC209A /* Pods-Sandbox-frameworks.sh */,
-				B49E4338A808296162179D079219FE8E /* Pods-Sandbox-Info.plist */,
-				B13D1399406309C42D6C95862708833B /* Pods-Sandbox-umbrella.h */,
-				00E678253B6EB175C602DFAB2E292CB7 /* Pods-Sandbox.debug.xcconfig */,
-				1091577F60E343B143B72364A278678A /* Pods-Sandbox.release.xcconfig */,
-			);
-			name = "Pods-Sandbox";
-			path = "Target Support Files/Pods-Sandbox";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		008225BC0AFB6418E72C65AAF770D505 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A8D4AFE83538F32F68602AA03530D03 /* Pods-cSDKonIOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3A52424B31616F35A6C4EDA1C9C240BF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -2296,14 +2308,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EEFC579679A48CF2137DE74A7B392A4B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				77917AE53B82C8A773EE9C334BA952BF /* Pods-Sandbox-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -2373,6 +2377,31 @@
 			productReference = F3745DFD6AD6D59F624ED61D1FE8F548 /* AzureIoTuAmqp.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		91D71F49E14C3A6245CC6F4E3AA98AB4 /* Pods-cSDKonIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC33C80C74B96D87B10C90815F7EAD17 /* Build configuration list for PBXNativeTarget "Pods-cSDKonIOS" */;
+			buildPhases = (
+				008225BC0AFB6418E72C65AAF770D505 /* Headers */,
+				7EA1C330E575C13DF0F528FA04C049A8 /* Sources */,
+				DDECCCCD1C627BB69E1BE19819CDF9A5 /* Frameworks */,
+				C2505A3EC2BADA8567C28086C1D3B11D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9344FA1AA4B90213C00D0E47CE23ABC1 /* PBXTargetDependency */,
+				E91AD3139563A9D901481C6AEF2B7070 /* PBXTargetDependency */,
+				6C14E7A6FB2B8F93812B0A0BBFB9B3FA /* PBXTargetDependency */,
+				EBD069EA3621745B20B8503B59E8CC09 /* PBXTargetDependency */,
+				DF75A0E1DCED7A6FD37F1E4014128B9F /* PBXTargetDependency */,
+				08873CB6A74CABFE986FEA3AE5AC2127 /* PBXTargetDependency */,
+				482547AA2AFC5B0BACF24D4B5B760996 /* PBXTargetDependency */,
+			);
+			name = "Pods-cSDKonIOS";
+			productName = "Pods-cSDKonIOS";
+			productReference = 2BBDBC8EEF566BA4E29196B9E999C8E1 /* Pods_cSDKonIOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		98B4B79B09699E9CB8EA1FD2D3A6DD5C /* AzureIoTHubClient */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7F57C05718563E0C57EDF7D7005914C /* Build configuration list for PBXNativeTarget "AzureIoTHubClient" */;
@@ -2397,31 +2426,6 @@
 			productReference = B30EC1C72B4E545F5BAF315C8E18153D /* AzureIoTHubClient.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9EC123FAD2E600BD3A258D26D6BCA5D1 /* Pods-Sandbox */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 23CBD30196B952F20561886D2CFAE2D3 /* Build configuration list for PBXNativeTarget "Pods-Sandbox" */;
-			buildPhases = (
-				EEFC579679A48CF2137DE74A7B392A4B /* Headers */,
-				1E06C3255A8B5D89CAC5AA5D0026F9CF /* Sources */,
-				052C6EB592F65EC82061D47ACFDFB09F /* Frameworks */,
-				BD1E5B02571448A9469880FDF25EE67D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B2ACED5FCF1A67C73787D8DD71F15A66 /* PBXTargetDependency */,
-				CA5D1D8B7D7937C7A07E78EE6D293EC0 /* PBXTargetDependency */,
-				44B9F785187A1384E29669779E171F67 /* PBXTargetDependency */,
-				8107CDB1950F936B10528FA60C00AB6F /* PBXTargetDependency */,
-				AE64BDDF0D578C7C7D624986AAC9DAA1 /* PBXTargetDependency */,
-				4C65D624FCBD4A4D73A51CCFC060B64A /* PBXTargetDependency */,
-				C36368D86B63FA271306141161434C8E /* PBXTargetDependency */,
-			);
-			name = "Pods-Sandbox";
-			productName = "Pods-Sandbox";
-			productReference = 1758FA0725AA4B553C7CBC8E6EAE6EDB /* Pods_Sandbox.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -2429,10 +2433,10 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -2440,7 +2444,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 1D0F3A8EC921DEDFC0885E137D556F44 /* Products */;
+			productRefGroup = F7946C629EFAB7E1BACA1CE2F38AF72C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -2451,7 +2455,7 @@
 				D1622A3A18403322156C6932098E1E28 /* AzureMacroUtils */,
 				33A34AAD0DA2A9C4BF04322A631A7795 /* AzureuMockC */,
 				B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */,
-				9EC123FAD2E600BD3A258D26D6BCA5D1 /* Pods-Sandbox */,
+				91D71F49E14C3A6245CC6F4E3AA98AB4 /* Pods-cSDKonIOS */,
 			);
 		};
 /* End PBXProject section */
@@ -2485,7 +2489,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD1E5B02571448A9469880FDF25EE67D /* Resources */ = {
+		C2505A3EC2BADA8567C28086C1D3B11D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2515,14 +2519,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1E06C3255A8B5D89CAC5AA5D0026F9CF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A28A665999E5D3338CE55701A0E347DA /* Pods-Sandbox-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		371ABE579800A78FE244287975A465C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2616,6 +2612,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7EA1C330E575C13DF0F528FA04C049A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC41FE2FFB05627CEC62222E52B7CE9 /* Pods-cSDKonIOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A6200E4D27EADC326EA04A0FFD378107 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2694,6 +2698,12 @@
 			target = 0F623B6B20ADF25DE20060F87BFF48A3 /* AzureIoTUtility */;
 			targetProxy = C1F1E4AF500C9DE4704232E48C3D56B2 /* PBXContainerItemProxy */;
 		};
+		08873CB6A74CABFE986FEA3AE5AC2127 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AzureuMockC;
+			target = 33A34AAD0DA2A9C4BF04322A631A7795 /* AzureuMockC */;
+			targetProxy = 562C40F405C0071181CC7816F08497D7 /* PBXContainerItemProxy */;
+		};
 		12912EB428EC4B1A9D63941F928271AC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AzureMacroUtils;
@@ -2718,17 +2728,11 @@
 			target = 33A34AAD0DA2A9C4BF04322A631A7795 /* AzureuMockC */;
 			targetProxy = ACD551270A72C968A0E84AB9BAB06349 /* PBXContainerItemProxy */;
 		};
-		44B9F785187A1384E29669779E171F67 /* PBXTargetDependency */ = {
+		482547AA2AFC5B0BACF24D4B5B760996 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = AzureIoTuAmqp;
-			target = 1EEBC1B2152873148B7D459CD82628E9 /* AzureIoTuAmqp */;
-			targetProxy = 4ACB2F4CA58BA8C6F66C354C88735011 /* PBXContainerItemProxy */;
-		};
-		4C65D624FCBD4A4D73A51CCFC060B64A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AzureuMockC;
-			target = 33A34AAD0DA2A9C4BF04322A631A7795 /* AzureuMockC */;
-			targetProxy = DF1DDCEFC24F6ED69FF3B1A20043FF2A /* PBXContainerItemProxy */;
+			name = "OpenSSL-Universal";
+			target = B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */;
+			targetProxy = 4C61D0535242591E1E1FBFEA6B6F63FA /* PBXContainerItemProxy */;
 		};
 		5A89F87308F8E2A26AC5FE4581334DE0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2748,41 +2752,23 @@
 			target = 33A34AAD0DA2A9C4BF04322A631A7795 /* AzureuMockC */;
 			targetProxy = 7AF103F9DEAB24720F6F6825A11C6B98 /* PBXContainerItemProxy */;
 		};
-		8107CDB1950F936B10528FA60C00AB6F /* PBXTargetDependency */ = {
+		6C14E7A6FB2B8F93812B0A0BBFB9B3FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = AzureIoTuMqtt;
-			target = 0BD06B5E55D97C27F3898036A0B737B0 /* AzureIoTuMqtt */;
-			targetProxy = 76A044BAF5980AC9C22EB52EC5E572AE /* PBXContainerItemProxy */;
+			name = AzureIoTuAmqp;
+			target = 1EEBC1B2152873148B7D459CD82628E9 /* AzureIoTuAmqp */;
+			targetProxy = 846E0FBD7D60A961473554AEF31486F0 /* PBXContainerItemProxy */;
+		};
+		9344FA1AA4B90213C00D0E47CE23ABC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AzureIoTHubClient;
+			target = 98B4B79B09699E9CB8EA1FD2D3A6DD5C /* AzureIoTHubClient */;
+			targetProxy = 5F234F0266CDB56615258912FDAE4C3F /* PBXContainerItemProxy */;
 		};
 		9C699FC049E937D2BE75E0DD56C82874 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AzureMacroUtils;
 			target = D1622A3A18403322156C6932098E1E28 /* AzureMacroUtils */;
 			targetProxy = 9AA06ECB1DB276E4170ADEAF9268B74A /* PBXContainerItemProxy */;
-		};
-		AE64BDDF0D578C7C7D624986AAC9DAA1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AzureMacroUtils;
-			target = D1622A3A18403322156C6932098E1E28 /* AzureMacroUtils */;
-			targetProxy = 5ADB03861E660D160B947E18E508981E /* PBXContainerItemProxy */;
-		};
-		B2ACED5FCF1A67C73787D8DD71F15A66 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AzureIoTHubClient;
-			target = 98B4B79B09699E9CB8EA1FD2D3A6DD5C /* AzureIoTHubClient */;
-			targetProxy = 1382894560AE09990363987EAB52EF30 /* PBXContainerItemProxy */;
-		};
-		C36368D86B63FA271306141161434C8E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "OpenSSL-Universal";
-			target = B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */;
-			targetProxy = F57898B8FE575D9A5A9CD601F9C28EA7 /* PBXContainerItemProxy */;
-		};
-		CA5D1D8B7D7937C7A07E78EE6D293EC0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AzureIoTUtility;
-			target = 0F623B6B20ADF25DE20060F87BFF48A3 /* AzureIoTUtility */;
-			targetProxy = 032E37A0D7EE29018F7E24E175AC0088 /* PBXContainerItemProxy */;
 		};
 		D9DD41CA74DF3C5A0E1C3ADD11EE80EB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2796,11 +2782,29 @@
 			target = 33A34AAD0DA2A9C4BF04322A631A7795 /* AzureuMockC */;
 			targetProxy = 81DA192F58FF3827E8CA1739AECE5082 /* PBXContainerItemProxy */;
 		};
+		DF75A0E1DCED7A6FD37F1E4014128B9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AzureMacroUtils;
+			target = D1622A3A18403322156C6932098E1E28 /* AzureMacroUtils */;
+			targetProxy = 5956F03D95DEB03180AC329B20D2E6DB /* PBXContainerItemProxy */;
+		};
 		E228E8940418C8F5352519680D35D9A4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AzureIoTUtility;
 			target = 0F623B6B20ADF25DE20060F87BFF48A3 /* AzureIoTUtility */;
 			targetProxy = 50EB8D602C075A8767F6822E53563FD4 /* PBXContainerItemProxy */;
+		};
+		E91AD3139563A9D901481C6AEF2B7070 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AzureIoTUtility;
+			target = 0F623B6B20ADF25DE20060F87BFF48A3 /* AzureIoTUtility */;
+			targetProxy = 01F01FE131DAEAC5E2C4E1925C5122F6 /* PBXContainerItemProxy */;
+		};
+		EBD069EA3621745B20B8503B59E8CC09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AzureIoTuMqtt;
+			target = 0BD06B5E55D97C27F3898036A0B737B0 /* AzureIoTuMqtt */;
+			targetProxy = E3A0A5438FCB18DFBF23D18B3A765E3D /* PBXContainerItemProxy */;
 		};
 		F50296E9625E8B96CB52ED19C346FC17 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2823,7 +2827,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2832,6 +2836,44 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
+		};
+		04624934BFCF70B2971517C286F33193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60CA0B741E5C42C6715B1EC0C662E55D /* Pods-cSDKonIOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-cSDKonIOS/Pods-cSDKonIOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cSDKonIOS/Pods-cSDKonIOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		06560D7F19A6C2E938453A9C89C60CCF /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2848,7 +2890,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/AzureIoTUtility/AzureIoTUtility-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AzureIoTUtility/AzureIoTUtility-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2940,7 +2982,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2950,6 +2992,43 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		5334356E76E797DBB2C99FB63FC435BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62504317EA7A54F30B039C3BED19D4FF /* Pods-cSDKonIOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-cSDKonIOS/Pods-cSDKonIOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cSDKonIOS/Pods-cSDKonIOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		5E8BA2716F422844390E3B9DBB9C5A20 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2966,7 +3045,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/AzureIoTuAmqp/AzureIoTuAmqp-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AzureIoTuAmqp/AzureIoTuAmqp-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3053,7 +3132,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3079,7 +3158,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/AzureIoTHubClient/AzureIoTHubClient-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AzureIoTHubClient/AzureIoTHubClient-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3099,51 +3178,13 @@
 			};
 			name = Release;
 		};
-		7E00ED6E84396FE07231967026E91C9D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1091577F60E343B143B72364A278678A /* Pods-Sandbox.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Sandbox/Pods-Sandbox-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Sandbox/Pods-Sandbox.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		924162D8EF1C31B1B2DD394EF1BEE368 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4736478942C58DB21AFFEEFE88B06F91 /* AzureuMockC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3159,7 +3200,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3185,7 +3226,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/AzureIoTuAmqp/AzureIoTuAmqp-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AzureIoTuAmqp/AzureIoTuAmqp-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3220,7 +3261,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/AzureIoTuMqtt/AzureIoTuMqtt-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AzureIoTuMqtt/AzureIoTuMqtt-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3255,7 +3296,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/AzureIoTuMqtt/AzureIoTuMqtt-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AzureIoTuMqtt/AzureIoTuMqtt-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3289,7 +3330,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/AzureIoTUtility/AzureIoTUtility-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AzureIoTUtility/AzureIoTUtility-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3314,50 +3355,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		FA2D5840B0EA5A8E6558A4296AC07E74 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00E678253B6EB175C602DFAB2E292CB7 /* Pods-Sandbox.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Sandbox/Pods-Sandbox-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Sandbox/Pods-Sandbox.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -3376,7 +3380,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/AzureIoTHubClient/AzureIoTHubClient-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AzureIoTHubClient/AzureIoTHubClient-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3398,15 +3402,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		23CBD30196B952F20561886D2CFAE2D3 /* Build configuration list for PBXNativeTarget "Pods-Sandbox" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FA2D5840B0EA5A8E6558A4296AC07E74 /* Debug */,
-				7E00ED6E84396FE07231967026E91C9D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2E3AC6B67DBF8F23DE7CB0449D780E26 /* Build configuration list for PBXAggregateTarget "AzureMacroUtils" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -3475,6 +3470,15 @@
 			buildConfigurations = (
 				FBCDC38CE7BDDB5FC702A1D5FF5DEC9D /* Debug */,
 				6FBD27164E06C7061FA23E893DDE50D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC33C80C74B96D87B10C90815F7EAD17 /* Build configuration list for PBXNativeTarget "Pods-cSDKonIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5334356E76E797DBB2C99FB63FC435BE /* Debug */,
+				04624934BFCF70B2971517C286F33193 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

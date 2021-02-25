@@ -1,4 +1,4 @@
-${PODS_ROOT}/Target Support Files/Pods-Sandbox/Pods-Sandbox-frameworks.sh
+${PODS_ROOT}/Target Support Files/Pods-cSDKonIOS/Pods-cSDKonIOS-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/AzureIoTHubClient/AzureIoTHubClient.framework
 ${BUILT_PRODUCTS_DIR}/AzureIoTUtility/AzureIoTUtility.framework
 ${BUILT_PRODUCTS_DIR}/AzureIoTuAmqp/AzureIoTuAmqp.framework

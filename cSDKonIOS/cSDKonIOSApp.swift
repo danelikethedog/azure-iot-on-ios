@@ -1,6 +1,6 @@
 //
-//  SandboxApp.swift
-//  Sandbox
+//  cSDKonIOSApp.swift
+//  cSDKonIOS
 //
 //  Created by Dane Walton on 2/22/21.
 //
@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct SandboxApp: App {
+struct cSDKonIOSApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            iotDemoView()
         }
     }
 }

@@ -3,29 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5D440502E0F5665A85FE03E1 /* Pods_Sandbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C724311C08DD93BBB1C928 /* Pods_Sandbox.framework */; };
+		3FF5B9C2648FD2910EB394C1 /* Pods_cSDKonIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8778C1D6E7C154CDC482621 /* Pods_cSDKonIOS.framework */; };
 		A198DC1925E576FC00CEDC94 /* iotClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A198DC1825E576FC00CEDC94 /* iotClientViewController.swift */; };
-		A1AFDDD725E45DF4000375E6 /* SandboxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AFDDD625E45DF4000375E6 /* SandboxApp.swift */; };
-		A1AFDDD925E45DF4000375E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AFDDD825E45DF4000375E6 /* ContentView.swift */; };
+		A1AFDDD725E45DF4000375E6 /* cSDKonIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AFDDD625E45DF4000375E6 /* cSDKonIOSApp.swift */; };
+		A1AFDDD925E45DF4000375E6 /* iotDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AFDDD825E45DF4000375E6 /* iotDemoView.swift */; };
 		A1AFDDDB25E45DF5000375E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1AFDDDA25E45DF5000375E6 /* Assets.xcassets */; };
 		A1AFDDDE25E45DF5000375E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1AFDDDD25E45DF5000375E6 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3B09A2B9E5E1A8CDA37D60C5 /* Pods-Sandbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sandbox.debug.xcconfig"; path = "Target Support Files/Pods-Sandbox/Pods-Sandbox.debug.xcconfig"; sourceTree = "<group>"; };
-		4F446FB609804D4D26052447 /* Pods-Sandbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sandbox.release.xcconfig"; path = "Target Support Files/Pods-Sandbox/Pods-Sandbox.release.xcconfig"; sourceTree = "<group>"; };
-		88C724311C08DD93BBB1C928 /* Pods_Sandbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sandbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B09A2B9E5E1A8CDA37D60C5 /* Pods-cSDKonIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cSDKonIOS.debug.xcconfig"; path = "Target Support Files/Pods-cSDKonIOS/Pods-cSDKonIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		442BECFCE392B52360A9B30F /* Pods-cSDKonIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cSDKonIOS.debug.xcconfig"; path = "Target Support Files/Pods-cSDKonIOS/Pods-cSDKonIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		4F446FB609804D4D26052447 /* Pods-cSDKonIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cSDKonIOS.release.xcconfig"; path = "Target Support Files/Pods-cSDKonIOS/Pods-cSDKonIOS.release.xcconfig"; sourceTree = "<group>"; };
+		7A23E33DD813C39C3F021C7E /* Pods-cSDKonIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cSDKonIOS.release.xcconfig"; path = "Target Support Files/Pods-cSDKonIOS/Pods-cSDKonIOS.release.xcconfig"; sourceTree = "<group>"; };
 		A198DC1825E576FC00CEDC94 /* iotClientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iotClientViewController.swift; sourceTree = "<group>"; };
-		A1AFDDD325E45DF4000375E6 /* Sandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1AFDDD625E45DF4000375E6 /* SandboxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandboxApp.swift; sourceTree = "<group>"; };
-		A1AFDDD825E45DF4000375E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1AFDDD325E45DF4000375E6 /* cSDKonIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cSDKonIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1AFDDD625E45DF4000375E6 /* cSDKonIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cSDKonIOSApp.swift; sourceTree = "<group>"; };
+		A1AFDDD825E45DF4000375E6 /* iotDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iotDemoView.swift; sourceTree = "<group>"; };
 		A1AFDDDA25E45DF5000375E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1AFDDDD25E45DF5000375E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A1AFDDDF25E45DF5000375E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8778C1D6E7C154CDC482621 /* Pods_cSDKonIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cSDKonIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D440502E0F5665A85FE03E1 /* Pods_Sandbox.framework in Frameworks */,
+				3FF5B9C2648FD2910EB394C1 /* Pods_cSDKonIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,17 +45,18 @@
 		462108439974E703D4AF5EF4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B09A2B9E5E1A8CDA37D60C5 /* Pods-Sandbox.debug.xcconfig */,
-				4F446FB609804D4D26052447 /* Pods-Sandbox.release.xcconfig */,
+				3B09A2B9E5E1A8CDA37D60C5 /* Pods-cSDKonIOS.debug.xcconfig */,
+				4F446FB609804D4D26052447 /* Pods-cSDKonIOS.release.xcconfig */,
+				442BECFCE392B52360A9B30F /* Pods-cSDKonIOS.debug.xcconfig */,
+				7A23E33DD813C39C3F021C7E /* Pods-cSDKonIOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		A1AFDDCA25E45DF4000375E6 = {
 			isa = PBXGroup;
 			children = (
-				A1AFDDD525E45DF4000375E6 /* Sandbox */,
+				A1AFDDD525E45DF4000375E6 /* cSDKonIOS */,
 				A1AFDDD425E45DF4000375E6 /* Products */,
 				462108439974E703D4AF5EF4 /* Pods */,
 				E4C8AFBB7CD020CD005AE7C8 /* Frameworks */,
@@ -63,22 +66,22 @@
 		A1AFDDD425E45DF4000375E6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A1AFDDD325E45DF4000375E6 /* Sandbox.app */,
+				A1AFDDD325E45DF4000375E6 /* cSDKonIOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A1AFDDD525E45DF4000375E6 /* Sandbox */ = {
+		A1AFDDD525E45DF4000375E6 /* cSDKonIOS */ = {
 			isa = PBXGroup;
 			children = (
-				A1AFDDD625E45DF4000375E6 /* SandboxApp.swift */,
-				A1AFDDD825E45DF4000375E6 /* ContentView.swift */,
+				A1AFDDD625E45DF4000375E6 /* cSDKonIOSApp.swift */,
+				A1AFDDD825E45DF4000375E6 /* iotDemoView.swift */,
 				A198DC1825E576FC00CEDC94 /* iotClientViewController.swift */,
 				A1AFDDDA25E45DF5000375E6 /* Assets.xcassets */,
 				A1AFDDDF25E45DF5000375E6 /* Info.plist */,
 				A1AFDDDC25E45DF5000375E6 /* Preview Content */,
 			);
-			path = Sandbox;
+			path = cSDKonIOS;
 			sourceTree = "<group>";
 		};
 		A1AFDDDC25E45DF5000375E6 /* Preview Content */ = {
@@ -92,7 +95,7 @@
 		E4C8AFBB7CD020CD005AE7C8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				88C724311C08DD93BBB1C928 /* Pods_Sandbox.framework */,
+				C8778C1D6E7C154CDC482621 /* Pods_cSDKonIOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -100,9 +103,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A1AFDDD225E45DF4000375E6 /* Sandbox */ = {
+		A1AFDDD225E45DF4000375E6 /* cSDKonIOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1AFDDE225E45DF5000375E6 /* Build configuration list for PBXNativeTarget "Sandbox" */;
+			buildConfigurationList = A1AFDDE225E45DF5000375E6 /* Build configuration list for PBXNativeTarget "cSDKonIOS" */;
 			buildPhases = (
 				2A6280B5C80294B98347B3ED /* [CP] Check Pods Manifest.lock */,
 				A1AFDDCF25E45DF4000375E6 /* Sources */,
@@ -114,9 +117,9 @@
 			);
 			dependencies = (
 			);
-			name = Sandbox;
-			productName = Sandbox;
-			productReference = A1AFDDD325E45DF4000375E6 /* Sandbox.app */;
+			name = cSDKonIOS;
+			productName = cSDKonIOS;
+			productReference = A1AFDDD325E45DF4000375E6 /* cSDKonIOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,7 +136,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A1AFDDCE25E45DF4000375E6 /* Build configuration list for PBXProject "Sandbox" */;
+			buildConfigurationList = A1AFDDCE25E45DF4000375E6 /* Build configuration list for PBXProject "cSDKonIOS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -146,7 +149,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A1AFDDD225E45DF4000375E6 /* Sandbox */,
+				A1AFDDD225E45DF4000375E6 /* cSDKonIOS */,
 			);
 		};
 /* End PBXProject section */
@@ -179,11 +182,11 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Sandbox-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-cSDKonIOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The cSDKonIOS is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E30020B29D11B4838687B3C3 /* [CP] Embed Pods Frameworks */ = {
@@ -192,15 +195,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Sandbox/Pods-Sandbox-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-cSDKonIOS/Pods-cSDKonIOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Sandbox/Pods-Sandbox-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-cSDKonIOS/Pods-cSDKonIOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sandbox/Pods-Sandbox-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cSDKonIOS/Pods-cSDKonIOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -211,8 +214,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A198DC1925E576FC00CEDC94 /* iotClientViewController.swift in Sources */,
-				A1AFDDD925E45DF4000375E6 /* ContentView.swift in Sources */,
-				A1AFDDD725E45DF4000375E6 /* SandboxApp.swift in Sources */,
+				A1AFDDD925E45DF4000375E6 /* iotDemoView.swift in Sources */,
+				A1AFDDD725E45DF4000375E6 /* cSDKonIOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,21 +340,21 @@
 		};
 		A1AFDDE325E45DF5000375E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B09A2B9E5E1A8CDA37D60C5 /* Pods-Sandbox.debug.xcconfig */;
+			baseConfigurationReference = 442BECFCE392B52360A9B30F /* Pods-cSDKonIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Sandbox/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"cSDKonIOS/Preview Content\"";
 				DEVELOPMENT_TEAM = 229P89398U;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Sandbox/Info.plist;
+				INFOPLIST_FILE = cSDKonIOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.danewalton.Sandbox;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danewalton.cSDKonIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -360,21 +363,21 @@
 		};
 		A1AFDDE425E45DF5000375E6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F446FB609804D4D26052447 /* Pods-Sandbox.release.xcconfig */;
+			baseConfigurationReference = 7A23E33DD813C39C3F021C7E /* Pods-cSDKonIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Sandbox/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"cSDKonIOS/Preview Content\"";
 				DEVELOPMENT_TEAM = 229P89398U;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Sandbox/Info.plist;
+				INFOPLIST_FILE = cSDKonIOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.danewalton.Sandbox;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danewalton.cSDKonIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -384,7 +387,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A1AFDDCE25E45DF4000375E6 /* Build configuration list for PBXProject "Sandbox" */ = {
+		A1AFDDCE25E45DF4000375E6 /* Build configuration list for PBXProject "cSDKonIOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A1AFDDE025E45DF5000375E6 /* Debug */,
@@ -393,7 +396,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1AFDDE225E45DF5000375E6 /* Build configuration list for PBXNativeTarget "Sandbox" */ = {
+		A1AFDDE225E45DF5000375E6 /* Build configuration list for PBXNativeTarget "cSDKonIOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A1AFDDE325E45DF5000375E6 /* Debug */,
