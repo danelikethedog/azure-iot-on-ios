@@ -1,6 +1,6 @@
 # Azure IoT on iOS
 
-This is a basic sample which will connect to Azure IoT Hub using the C SDK.
+This is a basic sample which will connect to Azure IoT Hub using the [Azure IoT C SDK](https://github.com/Azure/azure-iot-sdk-c).
 
 ## Steps to get working
 
