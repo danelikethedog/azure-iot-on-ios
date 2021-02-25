@@ -10,6 +10,10 @@ This is a basic sample which will connect to Azure IoT Hub using the [Azure IoT 
 1. Change the connection string [here](https://github.com/danelikethedog/azure-iot-on-ios/blob/f8d5f427a0b85744909314646613a7f25c795d37/cSDKonIOS/iotDemoView.swift#L10) to your device.
 1. Build and run the sample!
 
+### Picture of the Screen
+
+![img](./img/screendemo.jpg){:height="50%" width="50%"}
+
 ## Project Notes
 - This is built with SwiftUI which means iOS minimum version iOS 13.
 
